@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2026.4.21)  22 SEP 2026 17:30
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2026.4.21)  22 SEP 2026 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2547,7 +2547,7 @@ File: assets/epic_logo.png Graphic file (type bmp)
 File: assets/ntu_ccds_logo.png Graphic file (type bmp)
 <assets/ntu_ccds_logo.png>
 
-Overfull \vbox (33.8168pt too high) detected at line 1165
+Overfull \vbox (13.67181pt too high) detected at line 1165
  []
 
 File: assets/epic_logo.png Graphic file (type bmp)
@@ -2557,7 +2557,7 @@ File: assets/ntu_ccds_logo.png Graphic file (type bmp)
 [162
 
 ]
-Overfull \vbox (33.8168pt too high) detected at line 1165
+Overfull \vbox (13.67181pt too high) detected at line 1165
  []
 
 File: assets/epic_logo.png Graphic file (type bmp)
@@ -2600,4 +2600,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  128i,15n,123p,419b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (164 pages, 2674140 bytes).
+Output written on main.xdv (164 pages, 2673372 bytes).
