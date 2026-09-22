@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Collusion, and Why Agents Fall Into It}{3}{0}{1}
+\beamer@sectionintoc {2}{The Economics of Pricing Collusion}{23}{0}{2}
+\beamer@sectionintoc {3}{What the Authors Actually Did}{48}{0}{3}
+\beamer@sectionintoc {4}{Results}{66}{0}{4}
+\beamer@sectionintoc {5}{Opening the Black Box}{85}{0}{5}
+\beamer@sectionintoc {6}{Limitations and Discussion}{109}{0}{6}
+\beamer@sectionintoc {7}{Discussion}{133}{0}{7}
+\beamer@sectionintoc {8}{Relation to Our Research Questions}{152}{0}{8}

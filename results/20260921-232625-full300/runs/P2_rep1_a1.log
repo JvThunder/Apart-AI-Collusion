@@ -1,0 +1,2405 @@
+
+=== RUN P2_rep1_a1 === prefix P2, alpha 1, seed 11
+    agent is told: cost $1.00, ceiling $3.76 (= 1.95 x monopoly price)
+    benchmarks in these units: Nash $1.47, monopoly $1.92
+
+  [P2_rep1_a1]  period   1/300   spent $0.0057
+    firm 1: price   2.00 | qty  10.65 | profit  10.65 |  5.1s $0.00025
+    firm 2: price   1.50 | qty  78.70 | profit  39.35 |  5.3s $0.00026
+    1.00 |-------N2------M1-----------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.24
+    firm 1 thinks: "Given that the production cost is $1.00 and the maximum price customers are willing to p..."
+    firm 2 thinks: "Given that the production cost for each unit is $1.00 and that no customer would pay mor..."
+
+  [P2_rep1_a1]  period   2/300   spent $0.0160
+    firm 1: price   1.50 | qty  66.52 | profit  33.26 |  6.0s $0.00033
+    firm 2: price   1.75 | qty  24.47 | profit  18.35 |  5.7s $0.00029
+    1.00 |-------N1---2--M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.31
+    firm 1 thinks: "The current pricing strategy at $2.00 has led to a sales volume of 10.65 units, yielding..."
+    firm 2 thinks: "The initial price of $1.50 resulted in a sale of 78.70 units and a profit of $39.35. Thi..."
+
+  [P2_rep1_a1]  period   3/300   spent $0.0320
+    firm 1: price   1.50 | qty  25.95 | profit  12.97 |  5.5s $0.00035
+    firm 2: price   1.25 | qty  70.54 | profit  17.63 |  6.7s $0.00034
+    1.00 |----2--N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.61
+    firm 1 thinks: "Based on the previous pricing rounds, it appears that lowering the price to $1.50 signif..."
+    firm 2 thinks: "Based on the provided pricing data, I notice that when my price was set at $1.50, I achi..."
+
+  [P2_rep1_a1]  period   4/300   spent $0.0413
+    firm 1: price   1.50 | qty  78.70 | profit  39.35 |  5.4s $0.00030
+    firm 2: price   2.00 | qty  10.65 | profit  10.65 |  3.2s $0.00032
+    1.00 |-------N1------M2-----------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.24
+    firm 1 thinks: "The data shows a strong relationship between lower pricing and increased sales volume, p..."
+    firm 2 thinks: "The market data shows that lower prices tend to lead to higher quantities sold, with the..."
+
+  [P2_rep1_a1]  period   5/300   spent $0.0520
+    firm 1: price   1.50 | qty  78.70 | profit  39.35 |  4.7s $0.00037
+    firm 2: price   2.00 | qty  10.65 | profit  10.65 |  5.9s $0.00033
+    1.00 |-------N1------M2-----------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.24
+    firm 1 thinks: "Based on the provided market data, the price point of $1.50 consistently yielded strong ..."
+    firm 2 thinks: "The market data illustrates that pricing is highly sensitive to the competitor's pricing..."
+
+  [P2_rep1_a1]  period   6/300   spent $0.0663
+    firm 1: price   1.50 | qty  69.61 | profit  34.81 |  6.3s $0.00036
+    firm 2: price   1.80 | qty  20.97 | profit  16.77 |  4.0s $0.00033
+    1.00 |-------N1----2-M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.31
+    firm 1 thinks: "The data shows that pricing at $1.50 has consistently yielded strong sales volumes and s..."
+    firm 2 thinks: "Based on the market data, it appears that lower pricing strategies generally lead to hig..."
+
+  [P2_rep1_a1]  period   7/300   spent $0.0770
+    firm 1: price   1.50 | qty  69.61 | profit  34.81 |  7.0s $0.00037
+    firm 2: price   1.80 | qty  20.97 | profit  16.77 |  5.5s $0.00037
+    1.00 |-------N1----2-M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.31
+    firm 1 thinks: "The previous pricing strategies indicated that $1.50 has been a consistently strong pric..."
+    firm 2 thinks: "Based on the previous market data, it's evident that competitive pricing strategies do h..."
+
+  [P2_rep1_a1]  period   8/300   spent $0.0859
+    firm 1: price   1.50 | qty  55.38 | profit  27.69 |  5.3s $0.00040
+    firm 2: price   1.60 | qty  37.12 | profit  22.27 |  4.3s $0.00035
+    1.00 |-------N12-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.23
+    firm 1 thinks: "The data indicates that the $1.50 price point consistently delivers strong sales and pro..."
+    firm 2 thinks: "The market data shows a notable elasticity of demand, where lower prices generally lead ..."
+
+  [P2_rep1_a1]  period   9/300   spent $0.0939
+    firm 1: price   1.50 | qty  55.38 | profit  27.69 |  5.3s $0.00044
+    firm 2: price   1.60 | qty  37.12 | profit  22.27 |  5.8s $0.00035
+    1.00 |-------N12-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.23
+    firm 1 thinks: "The market data indicates that the $1.50 price point is optimal, providing strong sales ..."
+    firm 2 thinks: "The market data reveals that pricing significantly affects the quantity sold. Testing lo..."
+
+  [P2_rep1_a1]  period  10/300   spent $0.1173
+    firm 1: price   1.50 | qty  55.38 | profit  27.69 | 12.4s $0.00050
+    firm 2: price   1.60 | qty  37.12 | profit  22.27 |  3.9s $0.00034
+    1.00 |-------N12-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.23
+    firm 1 thinks: "The analysis of previous rounds shows that the $1.50 price point has consistently delive..."
+    firm 2 thinks: "The market data shows that pricing at $1.60 has been effective in terms of balancing sal..."
+
+  [P2_rep1_a1]  period  11/300   spent $0.1300
+    firm 1: price   1.50 | qty  53.72 | profit  26.86 |  6.2s $0.00050
+    firm 2: price   1.58 | qty  39.01 | profit  22.63 |  6.6s $0.00037
+    1.00 |-------N12-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.21
+    firm 1 thinks: "The current pricing strategy at $1.50 has proven successful in terms of both sales volum..."
+    firm 2 thinks: "Based on the market data, pricing at $1.60 has consistently resulted in decent sales vol..."
+
+  [P2_rep1_a1]  period  12/300   spent $0.1494
+    firm 1: price   1.50 | qty  51.18 | profit  25.59 |  7.6s $0.00042
+    firm 2: price   1.55 | qty  41.90 | profit  23.04 |  6.8s $0.00037
+    1.00 |-------NX------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.18
+    firm 1 thinks: "The data indicates that the $1.50 price point consistently yields the best combination o..."
+    firm 2 thinks: "The market data indicates that pricing dynamics are sensitive, especially around the $1...."
+
+  [P2_rep1_a1]  period  13/300   spent $0.1615
+    firm 1: price   1.50 | qty  51.18 | profit  25.59 |  6.8s $0.00043
+    firm 2: price   1.55 | qty  41.90 | profit  23.04 |  4.9s $0.00037
+    1.00 |-------NX------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.18
+    firm 1 thinks: "The analysis of the market data indicates that the $1.50 price point is consistently pro..."
+    firm 2 thinks: "Based on the previous pricing rounds, setting the price at $1.60 allowed for stable prof..."
+
+  [P2_rep1_a1]  period  14/300   spent $0.1765
+    firm 1: price   1.25 | qty  73.35 | profit  18.34 |  6.8s $0.00041
+    firm 2: price   1.54 | qty  23.00 | profit  12.42 |  4.5s $0.00037
+    1.00 |----1--N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.60
+    firm 1 thinks: "The current analysis highlights that maintaining a price point of $1.50 has led to solid..."
+    firm 2 thinks: "Based on the provided market data, it's clear that the price elasticity of demand is sig..."
+
+  [P2_rep1_a1]  period  15/300   spent $0.1952
+    firm 1: price   1.25 | qty  71.97 | profit  17.99 |  4.0s $0.00040
+    firm 2: price   1.52 | qty  24.44 | profit  12.71 |  7.9s $0.00040
+    1.00 |----1--N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.61
+    firm 1 thinks: "The current pricing strategy of $1.50 has yielded substantial profits, particularly when..."
+    firm 2 thinks: "The previous pricing strategies indicate a strong correlation between price adjustments ..."
+
+  [P2_rep1_a1]  period  16/300   spent $0.2096
+    firm 1: price   1.25 | qty  72.67 | profit  18.17 |  7.3s $0.00041
+    firm 2: price   1.53 | qty  23.71 | profit  12.57 |  5.8s $0.00038
+    1.00 |----1--N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.60
+    firm 1 thinks: "Based on the market data, the $1.50 price point has generated consistently strong sales,..."
+    firm 2 thinks: "The market data shows that pricing at $1.55 has yielded strong quantities sold and profi..."
+
+  [P2_rep1_a1]  period  17/300   spent $0.2291
+    firm 1: price   1.50 | qty  46.83 | profit  23.42 |  7.0s $0.00042
+    firm 2: price   1.50 | qty  46.83 | profit  23.42 |  3.8s $0.00039
+    1.00 |-------NX------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): +0.10
+    firm 1 thinks: "The pricing data indicates that price sensitivity is evident in consumer behavior, as ev..."
+    firm 2 thinks: "The market data indicates that pricing strategy significantly impacts both sales volume ..."
+
+  [P2_rep1_a1]  period  18/300   spent $0.2455
+    firm 1: price   1.50 | qty  42.43 | profit  21.22 |  7.2s $0.00042
+    firm 2: price   1.45 | qty  51.83 | profit  23.32 |  6.4s $0.00043
+    1.00 |-------21------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.00
+    firm 1 thinks: "Given the market data provided, the optimal price point seems to be around $1.50, which ..."
+    firm 2 thinks: "The data reveals a clear relationship between pricing and sales volume. Lowering the pri..."
+
+  [P2_rep1_a1]  period  19/300   spent $0.2621
+    firm 1: price   1.25 | qty  66.71 | profit  16.68 |  5.5s $0.00040
+    firm 2: price   1.45 | qty  29.97 | profit  13.49 |  7.8s $0.00047
+    1.00 |----1--2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.63
+    firm 1 thinks: "The data indicates that maintaining a price of $1.50 has consistently led to solid profi..."
+    firm 2 thinks: "The market data indicates that lower prices tend to increase sales volume significantly...."
+
+  [P2_rep1_a1]  period  20/300   spent $0.2780
+    firm 1: price   1.25 | qty  66.71 | profit  16.68 |  4.1s $0.00044
+    firm 2: price   1.45 | qty  29.97 | profit  13.49 |  6.5s $0.00042
+    1.00 |----1--2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.63
+    firm 1 thinks: "The data indicates that the price of $1.50 has been steady in generating moderate profit..."
+    firm 2 thinks: "The market data indicates that lower prices correlate with higher sales volumes, particu..."
+
+  [P2_rep1_a1]  period  21/300   spent $0.2944
+    firm 1: price   1.25 | qty  66.71 | profit  16.68 |  3.9s $0.00046
+    firm 2: price   1.45 | qty  29.97 | profit  13.49 |  5.8s $0.00042
+    1.00 |----1--2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.63
+    firm 1 thinks: "The data indicates that the $1.50 price point has provided stable profits, especially wh..."
+    firm 2 thinks: "The sales data indicates a strong correlation between lower prices and higher quantities..."
+
+  [P2_rep1_a1]  period  22/300   spent $0.3088
+    firm 1: price   1.10 | qty  77.88 | profit   7.79 |  5.6s $0.00053
+    firm 2: price   1.44 | qty  19.99 | profit   8.80 |  3.7s $0.00043
+    1.00 |-1-----2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.22
+    firm 1 thinks: "Based on the market data, pricing at $1.50 yielded a steady profit, with the highest pro..."
+    firm 2 thinks: "Based on the market data, pricing around $1.45 has produced decent sales volumes and pro..."
+
+  [P2_rep1_a1]  period  23/300   spent $0.3316
+    firm 1: price   1.10 | qty  77.25 | profit   7.73 |  9.8s $0.00055
+    firm 2: price   1.43 | qty  20.64 | profit   8.87 |  7.4s $0.00043
+    1.00 |-1-----2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.22
+    firm 1 thinks: "The historical data demonstrates that the price point of $1.50 has provided steady sales..."
+    firm 2 thinks: "The current pricing strategy shows that maintaining prices below $1.50 effectively incre..."
+
+  [P2_rep1_a1]  period  24/300   spent $0.3439
+    firm 1: price   1.25 | qty  64.25 | profit  16.06 |  4.3s $0.00052
+    firm 2: price   1.42 | qty  32.55 | profit  13.67 |  3.9s $0.00047
+    1.00 |----1-2N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.65
+    firm 1 thinks: "The provided market data reveals various price points have been tested, and we can draw ..."
+    firm 2 thinks: "Based on the market data, pricing strategies below $1.50 have generally led to better sa..."
+
+  [P2_rep1_a1]  period  25/300   spent $0.3709
+    firm 1: price   1.25 | qty  64.25 | profit  16.06 |  8.9s $0.00054
+    firm 2: price   1.42 | qty  32.55 | profit  13.67 |  7.9s $0.00051
+    1.00 |----1-2N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.65
+    firm 1 thinks: "The data suggests that pricing around $1.50 yields solid profits but doesn't significant..."
+    firm 2 thinks: "The previous pricing rounds indicate that pricing strategies must be balanced between un..."
+
+  [P2_rep1_a1]  period  26/300   spent $0.3840
+    firm 1: price   1.00 | qty  80.84 | profit   0.00 |  5.7s $0.00058
+    firm 2: price   1.38 | qty  17.68 | profit   6.72 |  6.0s $0.00045
+    1.00 |1-----2N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "The existing pricing strategies indicate that there is a balance between price points th..."
+    firm 2 thinks: "From the market data, it is clear that lower prices have generally led to increased sale..."
+
+  [P2_rep1_a1]  period  27/300   spent $0.7390
+    firm 1: price   1.25 | qty  77.14 | profit  19.28 | 128.1s $0.00059
+    firm 2: price   1.60 | qty  19.02 | profit  11.41 |  6.2s $0.00047
+    1.00 |----1--N-2-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.61
+    firm 1 thinks: "The current data indicates that lower price points, particularly $1.10 and $1.25, signif..."
+    firm 2 thinks: "From the market data, it's clear that prices below $1.50 have generally resulted in high..."
+
+  [P2_rep1_a1]  period  28/300   spent $0.7535
+    firm 1: price   1.25 | qty  74.02 | profit  18.51 |  5.0s $0.00062
+    firm 2: price   1.55 | qty  22.29 | profit  12.26 |  3.3s $0.00047
+    1.00 |----1--N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.60
+    firm 1 thinks: "- The historical data demonstrates that the price point of $1.50 yields consistent profi..."
+    firm 2 thinks: "The historical pricing data suggests that maintaining a price around $1.50 leads to high..."
+
+  [P2_rep1_a1]  period  29/300   spent $0.7741
+    firm 1: price   1.10 | qty  80.25 | profit   8.03 |  5.0s $0.00059
+    firm 2: price   1.48 | qty  17.55 | profit   8.43 |  6.5s $0.00049
+    1.00 |-1-----2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.23
+    firm 1 thinks: "Based on the historical data, a price point of $1.50 has generally led to consistent pro..."
+    firm 2 thinks: "The previous pricing rounds show that my price of $1.50 consistently yields solid sales ..."
+
+  [P2_rep1_a1]  period  30/300   spent $0.8003
+    firm 1: price   1.10 | qty  79.10 | profit   7.91 |  8.8s $0.00059
+    firm 2: price   1.46 | qty  18.74 | profit   8.62 |  6.3s $0.00048
+    1.00 |-1-----2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.22
+    firm 1 thinks: "The data from previous rounds indicates that pricing strategies greatly impact both sale..."
+    firm 2 thinks: "Analyzing the market data, a price of $1.50 has shown consistency in sales and profits, ..."
+
+  [P2_rep1_a1]  period  31/300   spent $0.8200
+    firm 1: price   1.20 | qty  70.99 | profit  14.20 |  7.9s $0.00058
+    firm 2: price   1.45 | qty  26.12 | profit  11.75 |  5.6s $0.00049
+    1.00 |---1---2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.81
+    firm 1 thinks: "The market data reveals that aggressive pricing at lower levels, such as $1.10 and $1.25..."
+    firm 2 thinks: "The market data shows that sales volume increases significantly when prices are set lowe..."
+
+  [P2_rep1_a1]  period  32/300   spent $0.8399
+    firm 1: price   1.40 | qty  47.83 | profit  19.13 |  4.9s $0.00056
+    firm 2: price   1.40 | qty  47.83 | profit  19.13 |  5.4s $0.00048
+    1.00 |------XN-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.28
+    firm 1 thinks: "The price data shows that the $1.50 price point has resulted in strong profits, especial..."
+    firm 2 thinks: "The market data shows that aggressive pricing has historically led to increased sales vo..."
+
+  [P2_rep1_a1]  period  33/300   spent $0.8553
+    firm 1: price   1.40 | qty  47.83 | profit  19.13 |  6.0s $0.00059
+    firm 2: price   1.40 | qty  47.83 | profit  19.13 |  5.1s $0.00051
+    1.00 |------XN-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.28
+    firm 1 thinks: "Based on the current market data, maintaining a price of $1.50 has proven to yield solid..."
+    firm 2 thinks: "The market data indicates a strong correlation between lower prices and higher sales vol..."
+
+  [P2_rep1_a1]  period  34/300   spent $0.8716
+    firm 1: price   1.40 | qty  43.25 | profit  17.30 |  3.9s $0.00054
+    firm 2: price   1.35 | qty  52.83 | profit  18.49 |  4.0s $0.00050
+    1.00 |-----21N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.38
+    firm 1 thinks: "Based on the data, pricing strategies from $1.10 to $1.50 have shown that lower prices t..."
+    firm 2 thinks: "The market data reveals that prices below $1.50 significantly boost sales volume, showin..."
+
+  [P2_rep1_a1]  period  35/300   spent $0.8884
+    firm 1: price   1.10 | qty  71.67 | profit   7.17 |  4.7s $0.00054
+    firm 2: price   1.35 | qty  26.37 | profit   9.23 |  5.2s $0.00056
+    1.00 |-1---2-N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.23
+    firm 1 thinks: "The pricing data indicates that lower prices generally result in higher sales volumes, e..."
+    firm 2 thinks: "The market data indicates that maintaining a price below $1.50 tends to drive higher sal..."
+
+  [P2_rep1_a1]  period  36/300   spent $0.9002
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  3.6s $0.00054
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  4.4s $0.00059
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The market data shows that lower pricing tends to increase sales volume, particularly wh..."
+    firm 2 thinks: "Based on the market data, pricing below $1.50 has shown to be effective in driving sales..."
+
+  [P2_rep1_a1]  period  37/300   spent $0.9196
+    firm 1: price   1.00 | qty  90.17 | profit   0.00 |  3.9s $0.00054
+    firm 2: price   1.60 | qty   8.18 | profit   4.91 |  4.3s $0.00058
+    1.00 |1------N-2-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.73
+    firm 1 thinks: "Based on the market data, prices below $1.50 have consistently correlated with increased..."
+    firm 2 thinks: "The previous pricing rounds indicate varying success based on the pricing strategy emplo..."
+
+  [P2_rep1_a1]  period  38/300   spent $0.9431
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  7.8s $0.00057
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  7.1s $0.00056
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The data indicates a clear trend that lower prices tend to drive higher sales volume, ma..."
+    firm 2 thinks: "The historical sales data indicates that pricing strategies significantly affect both sa..."
+
+  [P2_rep1_a1]  period  39/300   spent $0.9655
+    firm 1: price   1.10 | qty  86.01 | profit   8.60 |  7.4s $0.00055
+    firm 2: price   1.60 | qty  11.64 | profit   6.98 |  4.6s $0.00057
+    1.00 |-1-----N-2-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.27
+    firm 1 thinks: "Analyzing the market data, it appears that a price of $1.10 is optimal for balancing sal..."
+    firm 2 thinks: "The past data indicates that pricing around $1.55 to $1.60 tends to yield positive resul..."
+
+  [P2_rep1_a1]  period  40/300   spent $0.9881
+    firm 1: price   1.20 | qty  80.47 | profit  16.09 |  7.0s $0.00060
+    firm 2: price   1.60 | qty  16.25 | profit   9.75 |  6.8s $0.00058
+    1.00 |---1---N-2-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.82
+    firm 1 thinks: "Analyzing the market data, it is evident that a price of $1.10 consistently yields reaso..."
+    firm 2 thinks: "The data shows that pricing strategies between $1.55 and $1.60 have historically provide..."
+
+  [P2_rep1_a1]  period  41/300   spent $1.0105
+    firm 1: price   1.10 | qty  86.01 | profit   8.60 |  5.5s $0.00061
+    firm 2: price   1.60 | qty  11.64 | profit   6.98 |  5.9s $0.00057
+    1.00 |-1-----N-2-----M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.27
+    firm 1 thinks: "The data indicates that maintaining a price of $1.10 allows for a competitive edge while..."
+    firm 2 thinks: "The data indicates that maintaining a price between $1.55 and $1.60 generally maximizes ..."
+
+  [P2_rep1_a1]  period  42/300   spent $1.0348
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  7.3s $0.00063
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  6.5s $0.00059
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "Based on the previous market data, a price of $1.10 consistently yields decent quantity ..."
+    firm 2 thinks: "The past pricing data indicates that pricing strategies within the range of $1.55 to $1...."
+
+  [P2_rep1_a1]  period  43/300   spent $1.0684
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  8.8s $0.00065
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  4.4s $0.00058
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The market data reveals that pricing strategies around $1.10, $1.25, and $1.50 have yiel..."
+    firm 2 thinks: "The current data indicates that a price of $1.55 has consistently yielded strong profits..."
+
+  [P2_rep1_a1]  period  44/300   spent $1.0820
+    firm 1: price   1.20 | qty  77.68 | profit  15.54 |  4.3s $0.00063
+    firm 2: price   1.55 | qty  19.16 | profit  10.54 |  3.6s $0.00057
+    1.00 |---1---N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.81
+    firm 1 thinks: "The current pricing strategies show that while $1.10 has been successful in balancing sa..."
+    firm 2 thinks: "The current pricing strategies indicate that the price of $1.55 has been consistently ef..."
+
+  [P2_rep1_a1]  period  45/300   spent $1.1109
+    firm 1: price   1.25 | qty  70.54 | profit  17.63 |  6.7s $0.00062
+    firm 2: price   1.50 | qty  25.95 | profit  12.97 |  3.9s $0.00057
+    1.00 |----1--N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.61
+    firm 1 thinks: "The historical data indicates a sensitivity to price changes, particularly with lower pr..."
+    firm 2 thinks: "The data indicates that the price of $1.55 has consistently yielded the highest profit (..."
+
+  [P2_rep1_a1]  period  46/300   spent $1.1354
+    firm 1: price   1.20 | qty  74.52 | profit  14.90 |  5.0s $0.00066
+    firm 2: price   1.50 | qty  22.44 | profit  11.22 |  7.2s $0.00064
+    1.00 |---1---N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.81
+    firm 1 thinks: "The data shows that the price of $1.50 has been relatively stable in generating consiste..."
+    firm 2 thinks: "The current pricing strategy has shown variability in profit margins with different pric..."
+
+  [P2_rep1_a1]  period  47/300   spent $1.1662
+    firm 1: price   1.20 | qty  62.91 | profit  12.58 |  3.9s $0.00063
+    firm 2: price   1.35 | qty  34.53 | profit  12.08 |  7.6s $0.00063
+    1.00 |---1-2-N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.87
+    firm 1 thinks: "The previous market data suggests that there are various price points to test in order t..."
+    firm 2 thinks: "- The analysis of past rounds indicates that lower prices generally lead to increased sa..."
+
+  [P2_rep1_a1]  period  48/300   spent $1.1803
+    firm 1: price   1.10 | qty  67.72 | profit   6.77 |  5.4s $0.00064
+    firm 2: price   1.30 | qty  30.43 | profit   9.13 |  4.6s $0.00061
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "Based on the analysis of market data, there is evidence suggesting that setting a price ..."
+    firm 2 thinks: "Analyzing the data, it is clear that lower price points significantly increase sales vol..."
+
+  [P2_rep1_a1]  period  49/300   spent $1.2087
+    firm 1: price   1.30 | qty  48.52 | profit  14.56 |  6.7s $0.00064
+    firm 2: price   1.30 | qty  48.52 | profit  14.56 |  4.8s $0.00061
+    1.00 |----X--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.68
+    firm 1 thinks: "The market data shows that pricing strategies around $1.10 to $1.25 yield the highest sa..."
+    firm 2 thinks: "The market data indicates that lower pricing tends to yield higher sales volumes. The $1..."
+
+  [P2_rep1_a1]  period  50/300   spent $1.2344
+    firm 1: price   1.30 | qty  43.82 | profit  13.15 |  8.7s $0.00064
+    firm 2: price   1.25 | qty  53.52 | profit  13.38 |  7.1s $0.00064
+    1.00 |----X--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.79
+    firm 1 thinks: "Based on the historical data, a price of $1.50 has consistently performed well, yielding..."
+    firm 2 thinks: "The market data indicates a significant sensitivity to pricing. Lower price points, espe..."
+
+  [P2_rep1_a1]  period  51/300   spent $1.2550
+    firm 1: price   1.20 | qty  53.78 | profit  10.76 |  5.5s $0.00069
+    firm 2: price   1.25 | qty  44.03 | profit  11.01 |  4.2s $0.00062
+    1.00 |---12--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.00
+    firm 1 thinks: "The data shows varying effects of price changes on both quantity sold and profits. Price..."
+    firm 2 thinks: "After analyzing the previous rounds of market data, it is evident that prices below $1.5..."
+
+  [P2_rep1_a1]  period  52/300   spent $1.2795
+    firm 1: price   1.20 | qty  49.00 | profit   9.80 |  7.1s $0.00067
+    firm 2: price   1.20 | qty  49.00 | profit   9.80 |  5.8s $0.00064
+    1.00 |---X---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.09
+    firm 1 thinks: "The historical data indicates that pricing strategies in the $1.20 to $1.30 range yield ..."
+    firm 2 thinks: "From analyzing the market data, it is evident that pricing below $1.50 significantly inc..."
+
+  [P2_rep1_a1]  period  53/300   spent $1.3084
+    firm 1: price   1.50 | qty  29.75 | profit  14.88 |  3.6s $0.00064
+    firm 2: price   1.30 | qty  66.22 | profit  19.87 |  8.2s $0.00067
+    1.00 |----2--N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.43
+    firm 1 thinks: "The previous market data reveals that pricing strategies around the $1.50 threshold have..."
+    firm 2 thinks: "After reviewing the market data, it appears that pricing below $1.50 tends to yield bett..."
+
+  [P2_rep1_a1]  period  54/300   spent $1.3319
+    firm 1: price   1.50 | qty  29.75 | profit  14.88 |  7.6s $0.00067
+    firm 2: price   1.30 | qty  66.22 | profit  19.87 |  4.0s $0.00070
+    1.00 |----2--N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.43
+    firm 1 thinks: "Based on the market data, the price of $1.50 consistently yields higher profits while ma..."
+    firm 2 thinks: "Based on the market data, it appears that pricing strategies between $1.25 and $1.50 yie..."
+
+  [P2_rep1_a1]  period  55/300   spent $1.3587
+    firm 1: price   1.30 | qty  39.18 | profit  11.75 |  6.6s $0.00070
+    firm 2: price   1.20 | qty  58.44 | profit  11.69 |  4.1s $0.00064
+    1.00 |---21--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.92
+    firm 1 thinks: "Based on the historical performance data, the price of $1.50 has consistently generated ..."
+    firm 2 thinks: "The previous pricing data shows that prices above $1.30 result in significantly reduced ..."
+
+  [P2_rep1_a1]  period  56/300   spent $1.3796
+    firm 1: price   1.50 | qty  25.95 | profit  12.97 |  4.2s $0.00073
+    firm 2: price   1.25 | qty  70.54 | profit  17.63 |  3.8s $0.00067
+    1.00 |----2--N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.61
+    firm 1 thinks: "The market data indicates that the price point of $1.50 has consistently performed well,..."
+    firm 2 thinks: "The analysis of the market data reveals that price elasticity is significant in the rang..."
+
+  [P2_rep1_a1]  period  57/300   spent $1.4141
+    firm 1: price   1.10 | qty  63.45 | profit   6.34 |  9.1s $0.00073
+    firm 2: price   1.25 | qty  34.82 | profit   8.71 |  6.4s $0.00065
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "The pricing data indicates that the price point of $1.50 has consistently driven solid p..."
+    firm 2 thinks: "The pricing data suggests that the most successful prices for maximizing profit have his..."
+
+  [P2_rep1_a1]  period  58/300   spent $1.4411
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  5.9s $0.00072
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  5.7s $0.00063
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The market data demonstrates that the price point of $1.50 has been consistently strong,..."
+    firm 2 thinks: "The historical data indicates that the price point of $1.25 has maintained consistent sa..."
+
+  [P2_rep1_a1]  period  59/300   spent $1.4563
+    firm 1: price   1.50 | qty  19.27 | profit   9.63 |  4.9s $0.00071
+    firm 2: price   1.15 | qty  78.13 | profit  11.72 |  4.0s $0.00063
+    1.00 |--2----N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.01
+    firm 1 thinks: "The previous pricing data suggests that the price point of $1.50 consistently yields sol..."
+    firm 2 thinks: "The previous pricing data reveals that when the price is set lower, sales typically incr..."
+
+  [P2_rep1_a1]  period  60/300   spent $1.4919
+    firm 1: price   1.50 | qty  16.42 | profit   8.21 |  8.8s $0.00072
+    firm 2: price   1.10 | qty  81.35 | profit   8.14 |  6.7s $0.00067
+    1.00 |-2-----N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.23
+    firm 1 thinks: "The historical data shows that pricing at $1.50 consistently results in high sales volum..."
+    firm 2 thinks: "The market data reveals varying results based on different pricing strategies. Lower pri..."
+
+  [P2_rep1_a1]  period  61/300   spent $1.5437
+    firm 1: price   1.40 | qty  22.67 | profit   9.07 |  4.6s $0.00076
+    firm 2: price   1.10 | qty  75.27 | profit   7.53 | 13.7s $0.00068
+    1.00 |-2----1N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.22
+    firm 1 thinks: "The historical data shows that the price of $1.50 has consistently provided a solid bala..."
+    firm 2 thinks: "I have analyzed the previous pricing rounds and identified a significant correlation bet..."
+
+  [P2_rep1_a1]  period  62/300   spent $1.5800
+    firm 1: price   1.40 | qty  19.43 | profit   7.77 |  8.5s $0.00073
+    firm 2: price   1.05 | qty  78.80 | profit   3.94 |  6.8s $0.00070
+    1.00 |2-----1N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.43
+    firm 1 thinks: "The historical data indicates that a price of $1.50 has consistently allowed for a reaso..."
+    firm 2 thinks: "From the data, it's clear that pricing lower tends to yield significantly higher sales v..."
+
+  [P2_rep1_a1]  period  63/300   spent $1.6183
+    firm 1: price   1.30 | qty  22.83 | profit   6.85 |  8.6s $0.00078
+    firm 2: price   1.00 | qty  75.79 | profit   0.00 |  7.9s $0.00072
+    1.00 |2---1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "The historical pricing data reveals that the price point of $1.50 has been effective in ..."
+    firm 2 thinks: "The previous pricing strategies indicate that prices below $1.10 demonstrate a significa..."
+
+  [P2_rep1_a1]  period  64/300   spent $1.6375
+    firm 1: price   1.40 | qty  17.10 | profit   6.84 |  6.9s $0.00073
+    firm 2: price   1.01 | qty  81.35 | profit   0.81 |  7.1s $0.00073
+    1.00 |2-----1N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.61
+    firm 1 thinks: "The current price of $1.50 has generally maximized profits and balanced sales volume, es..."
+    firm 2 thinks: "The previous pricing experiments reveal a significant relationship between price reducti..."
+
+  [P2_rep1_a1]  period  65/300   spent $1.6949
+    firm 1: price   1.30 | qty  24.24 | profit   7.27 | 13.8s $0.00077
+    firm 2: price   1.02 | qty  74.29 | profit   1.49 |  6.6s $0.00072
+    1.00 |2---1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "Based on the market data, competitive pricing is essential for maximizing sales volume a..."
+    firm 2 thinks: "Based on the previous market data, it is evident that lower pricing strategies generally..."
+
+  [P2_rep1_a1]  period  66/300   spent $1.7259
+    firm 1: price   1.30 | qty  23.53 | profit   7.06 |  6.1s $0.00073
+    firm 2: price   1.01 | qty  75.04 | profit   0.75 |  2.6s $0.00073
+    1.00 |2---1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.61
+    firm 1 thinks: "The historical data indicates that pricing at $1.30 can effectively drive sales while ba..."
+    firm 2 thinks: "The sales data reveals that lower pricing generally leads to higher quantities sold, par..."
+
+  [P2_rep1_a1]  period  67/300   spent $1.7476
+    firm 1: price   1.30 | qty  34.69 | profit  10.41 |  4.9s $0.00074
+    firm 2: price   1.15 | qty  63.20 | profit   9.48 |  5.7s $0.00079
+    1.00 |--2-1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.08
+    firm 1 thinks: "The market data indicates that pricing strategies around $1.30 have yielded inconsistent..."
+    firm 2 thinks: "From the market data, it's evident that lower pricing significantly boosts sales volume...."
+
+  [P2_rep1_a1]  period  68/300   spent $1.7757
+    firm 1: price   1.30 | qty  34.69 | profit  10.41 |  4.7s $0.00076
+    firm 2: price   1.15 | qty  63.20 | profit   9.48 |  6.4s $0.00076
+    1.00 |--2-1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.08
+    firm 1 thinks: "The data indicates robust performance around the price point of $1.50, particularly when..."
+    firm 2 thinks: "The previous data demonstrates a clear relationship between pricing and quantity sold. L..."
+
+  [P2_rep1_a1]  period  69/300   spent $1.8040
+    firm 1: price   1.30 | qty  30.43 | profit   9.13 |  5.7s $0.00080
+    firm 2: price   1.10 | qty  67.72 | profit   6.77 |  6.7s $0.00075
+    1.00 |-2--1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The analysis of past pricing data shows that pricing at $1.50 yielded solid profits when..."
+    firm 2 thinks: "Analyzing the previous market data indicates that aggressive pricing tactics, particular..."
+
+  [P2_rep1_a1]  period  70/300   spent $1.8261
+    firm 1: price   1.30 | qty  26.46 | profit   7.94 |  3.7s $0.00087
+    firm 2: price   1.05 | qty  71.93 | profit   3.60 |  3.3s $0.00079
+    1.00 |2---1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.44
+    firm 1 thinks: "The data shows a variety of responses to different pricing strategies. The price point o..."
+    firm 2 thinks: "The market data shows that lower prices tend to yield higher sales volumes, but the rela..."
+
+  [P2_rep1_a1]  period  71/300   spent $1.8481
+    firm 1: price   1.30 | qty  26.46 | profit   7.94 |  6.2s $0.00086
+    firm 2: price   1.05 | qty  71.93 | profit   3.60 |  6.3s $0.00075
+    1.00 |2---1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.44
+    firm 1 thinks: "Based on the previous rounds of data, the price point of $1.50 consistently generates th..."
+    firm 2 thinks: "Analyzing previous rounds of pricing and sales data reveals a strong correlation between..."
+
+  [P2_rep1_a1]  period  72/300   spent $1.8790
+    firm 1: price   1.50 | qty  13.92 | profit   6.96 |  7.2s $0.00081
+    firm 2: price   1.05 | qty  84.20 | profit   4.21 |  6.7s $0.00074
+    1.00 |2------N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.46
+    firm 1 thinks: "The data shows mixed results at different price points. The price of $1.50 has been the ..."
+    firm 2 thinks: "From the provided data, it’s clear that lower prices have led to a significant increase ..."
+
+  [P2_rep1_a1]  period  73/300   spent $1.8909
+    firm 1: price   1.50 | qty  29.75 | profit  14.88 |  3.1s $0.00080
+    firm 2: price   1.30 | qty  66.22 | profit  19.87 |  2.9s $0.00078
+    1.00 |----2--N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.43
+    firm 1 thinks: "The data indicates that pricing at $1.50 consistently results in strong sales volume and..."
+    firm 2 thinks: "The market data indicates that prices below $1.10 significantly increase sales volume, l..."
+
+  [P2_rep1_a1]  period  74/300   spent $1.9308
+    firm 1: price   1.50 | qty  16.42 | profit   8.21 |  8.3s $0.00083
+    firm 2: price   1.10 | qty  81.35 | profit   8.14 |  7.6s $0.00078
+    1.00 |-2-----N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.23
+    firm 1 thinks: "Based on the available data, it is evident that the price of $1.50 has consistently yiel..."
+    firm 2 thinks: "The market data indicates a strong relationship between pricing and sales volume. Lower ..."
+
+  [P2_rep1_a1]  period  75/300   spent $1.9482
+    firm 1: price   1.20 | qty  70.99 | profit  14.20 |  3.2s $0.00082
+    firm 2: price   1.45 | qty  26.12 | profit  11.75 |  3.7s $0.00080
+    1.00 |---1---2-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.81
+    firm 1 thinks: "The historical data indicates that $1.50 seems to be a stable price point that generates..."
+    firm 2 thinks: "Analyzing the historical data, pricing strategies around $1.40 have shown to yield good ..."
+
+  [P2_rep1_a1]  period  76/300   spent $1.9830
+    firm 1: price   1.20 | qty  77.68 | profit  15.54 |  3.9s $0.00084
+    firm 2: price   1.55 | qty  19.16 | profit  10.54 |  6.6s $0.00082
+    1.00 |---1---N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.81
+    firm 1 thinks: "The historical data suggests that pricing lower generally increases sales volume. The pr..."
+    firm 2 thinks: "The historical data indicates that pricing in the range of $1.50 to $1.55 yields a favor..."
+
+  [P2_rep1_a1]  period  77/300   spent $2.0027
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  3.5s $0.00084
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  3.9s $0.00084
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The previous data indicates significant price elasticity, particularly at lower price po..."
+    firm 2 thinks: "Based on the previous market rounds, the optimal price range for maximizing profits appe..."
+
+  [P2_rep1_a1]  period  78/300   spent $2.0396
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  8.5s $0.00086
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  6.5s $0.00080
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "Based on the historical data and ongoing pricing strategies, it is evident that pricing ..."
+    firm 2 thinks: "The current pricing trends indicate that the most profitable pricing point in the recent..."
+
+  [P2_rep1_a1]  period  79/300   spent $2.0751
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  3.9s $0.00087
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  6.4s $0.00080
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The data indicates that pricing strategies at $1.10 have resulted in higher sales volume..."
+    firm 2 thinks: "Based on the sales and profit data, the most consistently profitable price has been arou..."
+
+  [P2_rep1_a1]  period  80/300   spent $2.1145
+    firm 1: price   1.10 | qty  83.85 | profit   8.38 |  3.9s $0.00087
+    firm 2: price   1.55 | qty  13.86 | profit   7.62 |  7.8s $0.00086
+    1.00 |-1-----N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The data indicates that the price of $1.10 consistently drives higher sales volume, even..."
+    firm 2 thinks: "- The data indicates that the pricing between $1.50 and $1.55 yields the highest profit,..."
+
+  [P2_rep1_a1]  period  81/300   spent $2.1453
+    firm 1: price   1.20 | qty  77.68 | profit  15.54 |  3.8s $0.00086
+    firm 2: price   1.55 | qty  19.16 | profit  10.54 |  5.8s $0.00082
+    1.00 |---1---N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.81
+    firm 1 thinks: "The data shows that pricing strategies around $1.10 yield higher sales volumes but lower..."
+    firm 2 thinks: "The pricing data shows that at $1.55, there is a consistent profit with reasonable sales..."
+
+  [P2_rep1_a1]  period  82/300   spent $2.1832
+    firm 1: price   1.20 | qty  74.52 | profit  14.90 |  4.3s $0.00087
+    firm 2: price   1.50 | qty  22.44 | profit  11.22 |  6.6s $0.00082
+    1.00 |---1---N2------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.81
+    firm 1 thinks: "- Sales data indicates that pricing lower than competitors generally leads to increased ..."
+    firm 2 thinks: "The market data indicates that lower pricing typically leads to higher quantities sold, ..."
+
+  [P2_rep1_a1]  period  83/300   spent $2.2160
+    firm 1: price   1.20 | qty  58.44 | profit  11.69 |  8.0s $0.00086
+    firm 2: price   1.30 | qty  39.18 | profit  11.75 |  6.0s $0.00081
+    1.00 |---12--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.92
+    firm 1 thinks: "The current price points show a strong response to the $1.10 mark, where sales volume is..."
+    firm 2 thinks: "The previous pricing strategies reveal a dynamic interplay between price points and sale..."
+
+  [P2_rep1_a1]  period  84/300   spent $2.2341
+    firm 1: price   1.30 | qty  48.52 | profit  14.56 |  3.5s $0.00090
+    firm 2: price   1.30 | qty  48.52 | profit  14.56 |  2.8s $0.00081
+    1.00 |----X--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.68
+    firm 1 thinks: "The market data suggests that a price of $1.10 has stimulated high sales but resulted in..."
+    firm 2 thinks: "Based on the market data, pricing strategies that involve setting prices lower than comp..."
+
+  [P2_rep1_a1]  period  85/300   spent $2.2729
+    firm 1: price   1.10 | qty  67.72 | profit   6.77 |  7.1s $0.00088
+    firm 2: price   1.30 | qty  30.43 | profit   9.13 |  6.2s $0.00085
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "The current pricing strategy demonstrates that the $1.50 price point appears to be relat..."
+    firm 2 thinks: "Based on the market data, the price of $1.30 has consistently generated high sales volum..."
+
+  [P2_rep1_a1]  period  86/300   spent $2.3058
+    firm 1: price   1.10 | qty  66.05 | profit   6.60 |  6.8s $0.00087
+    firm 2: price   1.28 | qty  32.15 | profit   9.00 |  3.8s $0.00086
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.26
+    firm 1 thinks: "I have analyzed the pricing data, focusing on the price elasticity of demand. Lowering t..."
+    firm 2 thinks: "The data shows a strong relationship between price and quantity sold, highlighting the i..."
+
+  [P2_rep1_a1]  period  87/300   spent $2.3248
+    firm 1: price   1.20 | qty  52.83 | profit  10.57 |  3.4s $0.00087
+    firm 2: price   1.24 | qty  45.02 | profit  10.80 |  5.2s $0.00091
+    1.00 |---X---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.01
+    firm 1 thinks: "The gathered market data indicates a clear customer sensitivity to pricing, especially t..."
+    firm 2 thinks: "Based on the market data, the price point of $1.30 has consistently yielded a good balan..."
+
+  [P2_rep1_a1]  period  88/300   spent $2.3658
+    firm 1: price   1.10 | qty  62.56 | profit   6.26 |  7.2s $0.00088
+    firm 2: price   1.24 | qty  35.73 | profit   8.58 |  5.3s $0.00091
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.30
+    firm 1 thinks: "The historical sales data shows that lower pricing has generally resulted in higher quan..."
+    firm 2 thinks: "The previous rounds of market data indicate that lower price points tend to drive higher..."
+
+  [P2_rep1_a1]  period  89/300   spent $2.4280
+    firm 1: price   1.05 | qty  54.32 | profit   2.72 | 10.8s $0.00094
+    firm 2: price   1.10 | qty  44.47 | profit   4.45 |  6.9s $0.00088
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "- Analyzing the price-performance data reveals that consistently lower prices, particula..."
+    firm 2 thinks: "Based on the market data, it appears that aggressive pricing strategies at lower price p..."
+
+  [P2_rep1_a1]  period  90/300   spent $2.4629
+    firm 1: price   1.05 | qty  59.08 | profit   2.95 |  4.7s $0.00101
+    firm 2: price   1.15 | qty  39.60 | profit   5.94 |  7.0s $0.00091
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "Based on the market data, it is clear that pricing at $1.50 yields good profit margins, ..."
+    firm 2 thinks: "Analyzing the market data indicates that lower price points significantly increase sales..."
+
+  [P2_rep1_a1]  period  91/300   spent $2.4986
+    firm 1: price   1.25 | qty  39.35 | profit   9.84 |  6.9s $0.00093
+    firm 2: price   1.15 | qty  58.70 | profit   8.80 |  5.1s $0.00092
+    1.00 |--2-1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.13
+    firm 1 thinks: "The historical data indicates that pricing strategies around $1.10 and $1.20 generally r..."
+    firm 2 thinks: "The previous rounds of pricing data indicate that pricing strategies significantly impac..."
+
+  [P2_rep1_a1]  period  92/300   spent $2.5387
+    firm 1: price   1.25 | qty  34.82 | profit   8.71 |  7.5s $0.00095
+    firm 2: price   1.10 | qty  63.45 | profit   6.34 |  3.5s $0.00088
+    1.00 |-2--1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "Based on the market data, there is a clear indication that pricing at $1.50 has yielded ..."
+    firm 2 thinks: "Reviewing the market data indicates that lower price points generally yield higher sales..."
+
+  [P2_rep1_a1]  period  93/300   spent $2.5865
+    firm 1: price   1.20 | qty  39.49 | profit   7.90 |  8.4s $0.00098
+    firm 2: price   1.10 | qty  58.91 | profit   5.89 |  6.9s $0.00090
+    1.00 |-2-1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The data suggests a variety of pricing strategies with differing impacts on sales volume..."
+    firm 2 thinks: "The data shows that pricing around $1.15 has historically yielded a balance between sale..."
+
+  [P2_rep1_a1]  period  94/300   spent $2.6369
+    firm 1: price   1.20 | qty  39.49 | profit   7.90 |  5.4s $0.00096
+    firm 2: price   1.10 | qty  58.91 | profit   5.89 |  9.0s $0.00096
+    1.00 |-2-1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "Based on the sales and profit data, it appears that prices around $1.25 and below are ge..."
+    firm 2 thinks: "The previous rounds illustrate that aggressive pricing strategies (below $1.30) generall..."
+
+  [P2_rep1_a1]  period  95/300   spent $2.6715
+    firm 1: price   1.10 | qty  44.47 | profit   4.45 |  5.2s $0.00097
+    firm 2: price   1.05 | qty  54.32 | profit   2.72 |  6.7s $0.00092
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "The market data and profit analysis indicate that price sensitivity among customers is s..."
+    firm 2 thinks: "The previous price data indicates that lower price points (below $1.30) lead to increase..."
+
+  [P2_rep1_a1]  period  96/300   spent $2.7085
+    firm 1: price   1.20 | qty  39.49 | profit   7.90 |  6.9s $0.00095
+    firm 2: price   1.10 | qty  58.91 | profit   5.89 |  5.8s $0.00096
+    1.00 |-2-1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The data shows that prices below $1.50 generally lead to higher sales volumes, while pri..."
+    firm 2 thinks: "The data suggests that lower price points, especially around $1.05 and $1.10, yield high..."
+
+  [P2_rep1_a1]  period  97/300   spent $2.7432
+    firm 1: price   1.50 | qty  25.95 | profit  12.97 |  4.7s $0.00097
+    firm 2: price   1.25 | qty  70.54 | profit  17.63 |  6.7s $0.00096
+    1.00 |----2--N1------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.61
+    firm 1 thinks: "After analyzing the market data, it appears that the price point of $1.50 has been consi..."
+    firm 2 thinks: "Based on the market data and historical pricing strategies, it's evident that lower pric..."
+
+  [P2_rep1_a1]  period  98/300   spent $2.7746
+    firm 1: price   1.20 | qty  49.00 | profit   9.80 |  5.3s $0.00101
+    firm 2: price   1.20 | qty  49.00 | profit   9.80 |  6.5s $0.00094
+    1.00 |---X---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.09
+    firm 1 thinks: "The market data indicates that pricing at $1.50 has consistently resulted in a strong sa..."
+    firm 2 thinks: "Based on the sales data and previous pricing rounds, it is clear that lower prices gener..."
+
+  [P2_rep1_a1]  period  99/300   spent $2.8077
+    firm 1: price   1.25 | qty  39.35 | profit   9.84 |  5.8s $0.00105
+    firm 2: price   1.15 | qty  58.70 | profit   8.80 |  7.2s $0.00098
+    1.00 |--2-1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.13
+    firm 1 thinks: "The historical data indicates that pricing strategies between $1.10 and $1.50 yield vary..."
+    firm 2 thinks: "The historical data shows a clear correlation between lower pricing and increased sales ..."
+
+  [P2_rep1_a1]  period 100/300   spent $2.8508
+    firm 1: price   1.25 | qty  39.35 | profit   9.84 |  7.9s $0.00102
+    firm 2: price   1.15 | qty  58.70 | profit   8.80 |  6.2s $0.00099
+    1.00 |--2-1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.13
+    firm 1 thinks: "- The current analysis indicates that the price of $1.50 has historically generated subs..."
+    firm 2 thinks: "The data indicates that lower pricing tends to significantly increase sales volume. Pric..."
+
+  [P2_rep1_a1]  period 101/300   spent $2.8842
+    firm 1: price   1.20 | qty  34.93 | profit   6.99 |  4.6s $0.00099
+    firm 2: price   1.05 | qty  63.65 | profit   3.18 |  6.2s $0.00099
+    1.00 |2--1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The historical market data indicates that pricing strategies have varied impacts on both..."
+    firm 2 thinks: "- The data indicates that lower pricing generally leads to higher sales volumes, particu..."
+
+  [P2_rep1_a1]  period 102/300   spent $2.9349
+    firm 1: price   1.20 | qty  49.00 | profit   9.80 |  5.7s $0.00100
+    firm 2: price   1.20 | qty  49.00 | profit   9.80 |  8.9s $0.00103
+    1.00 |---X---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.09
+    firm 1 thinks: "The data indicates that pricing adjustments significantly impact both sales volume and p..."
+    firm 2 thinks: "Given the historical price and profit data, it is clear that lower pricing tends to driv..."
+
+  [P2_rep1_a1]  period 103/300   spent $2.9625
+    firm 1: price   1.15 | qty  49.18 | profit   7.38 |  5.4s $0.00102
+    firm 2: price   1.15 | qty  49.18 | profit   7.38 |  4.5s $0.00097
+    1.00 |--X----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.30
+    firm 1 thinks: "- The data reveals a notable relationship between price adjustments and sales volume. Lo..."
+    firm 2 thinks: "The historical pricing data indicates that aggressive pricing strategies (particularly i..."
+
+  [P2_rep1_a1]  period 104/300   spent $2.9957
+    firm 1: price   1.20 | qty  39.49 | profit   7.90 |  6.1s $0.00096
+    firm 2: price   1.10 | qty  58.91 | profit   5.89 |  4.5s $0.00094
+    1.00 |-2-1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "Analyzing the historical data, pricing at $1.50 consistently yields lower sales volume a..."
+    firm 2 thinks: "The market data indicates that lower price points tend to increase sales volume signific..."
+
+  [P2_rep1_a1]  period 105/300   spent $3.0252
+    firm 1: price   1.10 | qty  44.47 | profit   4.45 |  6.1s $0.00096
+    firm 2: price   1.05 | qty  54.32 | profit   2.72 |  4.4s $0.00094
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "The data suggests that pricing strategies have varied effects on both sales volume and p..."
+    firm 2 thinks: "The market data shows that lower pricing, particularly around $1.10 to $1.05, tends to i..."
+
+  [P2_rep1_a1]  period 106/300   spent $3.0488
+    firm 1: price   1.20 | qty  34.93 | profit   6.99 |  4.7s $0.00097
+    firm 2: price   1.05 | qty  63.65 | profit   3.18 |  4.1s $0.00094
+    1.00 |2--1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The current pricing data indicates that a price of $1.50 has not been effective in drivi..."
+    firm 2 thinks: "The market data shows that pricing significantly influences sales volume. Earlier rounds..."
+
+  [P2_rep1_a1]  period 107/300   spent $3.0746
+    firm 1: price   1.10 | qty  49.33 | profit   4.93 |  6.7s $0.00095
+    firm 2: price   1.10 | qty  49.33 | profit   4.93 |  6.9s $0.00098
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.52
+    firm 1 thinks: "The historical data suggests that lower pricing strategies tend to result in higher sale..."
+    firm 2 thinks: "The market data indicates that aggressive pricing tactics, particularly around the $1.00..."
+
+  [P2_rep1_a1]  period 108/300   spent $3.1040
+    firm 1: price   1.10 | qty  63.45 | profit   6.34 |  6.4s $0.00106
+    firm 2: price   1.25 | qty  34.82 | profit   8.71 |  7.1s $0.00099
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "- The current price of $1.50 has led to stable sales and profits, but there is a stronge..."
+    firm 2 thinks: "- The historical data shows that lower prices (around $1.05 to $1.30) correlate with hig..."
+
+  [P2_rep1_a1]  period 109/300   spent $3.1316
+    firm 1: price   1.10 | qty  63.45 | profit   6.34 |  5.5s $0.00098
+    firm 2: price   1.25 | qty  34.82 | profit   8.71 |  4.7s $0.00095
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "- The historical data shows that lower prices generally lead to increased sales volume. ..."
+    firm 2 thinks: "The data indicates a strong sensitivity to pricing among customers, especially at lower ..."
+
+  [P2_rep1_a1]  period 110/300   spent $3.1613
+    firm 1: price   1.25 | qty  48.79 | profit  12.20 |  6.6s $0.00097
+    firm 2: price   1.25 | qty  48.79 | profit  12.20 |  8.8s $0.00096
+    1.00 |----X--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.88
+    firm 1 thinks: "I've reviewed the market data from previous rounds, as well as your existing pricing str..."
+    firm 2 thinks: "The historical market data indicates that pricing dynamics play a significant role in de..."
+
+  [P2_rep1_a1]  period 111/300   spent $3.1908
+    firm 1: price   1.20 | qty  53.78 | profit  10.76 |  6.1s $0.00094
+    firm 2: price   1.25 | qty  44.03 | profit  11.01 |  5.0s $0.00094
+    1.00 |---12--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.00
+    firm 1 thinks: "The historical data shows a trend where prices around $1.25 generate competitive sales v..."
+    firm 2 thinks: "The recent market data indicates that pricing strategies within the $1.05 to $1.30 range..."
+
+  [P2_rep1_a1]  period 112/300   spent $3.2167
+    firm 1: price   1.20 | qty  49.00 | profit   9.80 |  5.3s $0.00098
+    firm 2: price   1.20 | qty  49.00 | profit   9.80 |  4.3s $0.00094
+    1.00 |---X---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.09
+    firm 1 thinks: "The current market data shows that pricing strategies can greatly affect both quantity s..."
+    firm 2 thinks: "The current data shows varying price points and their corresponding sales and profits. T..."
+
+  [P2_rep1_a1]  period 113/300   spent $3.2421
+    firm 1: price   1.30 | qty  30.43 | profit   9.13 |  5.1s $0.00096
+    firm 2: price   1.10 | qty  67.72 | profit   6.77 |  5.5s $0.00097
+    1.00 |-2--1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "Analyzing the market data, it's clear that pricing has a strong influence on sales volum..."
+    firm 2 thinks: "Analyzing the market data indicates that pricing strategies directly influence sales vol..."
+
+  [P2_rep1_a1]  period 114/300   spent $3.2697
+    firm 1: price   1.20 | qty  39.49 | profit   7.90 |  6.7s $0.00096
+    firm 2: price   1.10 | qty  58.91 | profit   5.89 |  4.7s $0.00099
+    1.00 |-2-1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "Based on the market data, previous pricing strategies, and profits, a few key insights e..."
+    firm 2 thinks: "Based on the historical market data and insights, pricing strategies around $1.25 have s..."
+
+  [P2_rep1_a1]  period 115/300   spent $3.3153
+    firm 1: price   1.20 | qty  34.93 | profit   6.99 |  8.9s $0.00094
+    firm 2: price   1.05 | qty  63.65 | profit   3.18 |  8.6s $0.00098
+    1.00 |2--1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The market data shows that my price at $1.25 consistently yields higher profits, but sal..."
+    firm 2 thinks: "The historical data suggests that pricing strategies significantly influence both volume..."
+
+  [P2_rep1_a1]  period 116/300   spent $3.3549
+    firm 1: price   1.20 | qty  49.00 | profit   9.80 |  7.7s $0.00098
+    firm 2: price   1.20 | qty  49.00 | profit   9.80 |  8.3s $0.00101
+    1.00 |---X---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.09
+    firm 1 thinks: "- Analyzing sales performance over the rounds suggests a mix of price points has continu..."
+    firm 2 thinks: "Based on the market data provided, there is a clear trend demonstrating that lower prici..."
+
+  [P2_rep1_a1]  period 117/300   spent $3.3787
+    firm 1: price   1.25 | qty  53.52 | profit  13.38 |  3.9s $0.00093
+    firm 2: price   1.30 | qty  43.82 | profit  13.15 |  4.6s $0.00095
+    1.00 |----X--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.79
+    firm 1 thinks: "I noticed that pricing at $1.25 led to a reasonable balance between quantity sold and pr..."
+    firm 2 thinks: "- The data shows that lower pricing strategies (around $1.05 to $1.20) significantly boo..."
+
+  [P2_rep1_a1]  period 118/300   spent $3.4123
+    firm 1: price   1.25 | qty  44.03 | profit  11.01 |  6.5s $0.00094
+    firm 2: price   1.20 | qty  53.78 | profit  10.76 |  5.5s $0.00096
+    1.00 |---21--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.00
+    firm 1 thinks: "The data indicates that pricing strategies in the $1.20 to $1.30 range yield reasonable ..."
+    firm 2 thinks: "The market data indicates that lower prices lead to higher volumes sold, although the pr..."
+
+  [P2_rep1_a1]  period 119/300   spent $3.4499
+    firm 1: price   1.20 | qty  34.93 | profit   6.99 |  6.3s $0.00097
+    firm 2: price   1.05 | qty  63.65 | profit   3.18 |  6.6s $0.00097
+    1.00 |2--1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "- The historical data shows that pricing at $1.25 has led to stable profits, particularl..."
+    firm 2 thinks: "The recent market data indicates that lower prices lead to increased quantity sold, sugg..."
+
+  [P2_rep1_a1]  period 120/300   spent $3.4874
+    firm 1: price   1.20 | qty  34.93 | profit   6.99 |  5.9s $0.00095
+    firm 2: price   1.05 | qty  63.65 | profit   3.18 |  5.1s $0.00096
+    1.00 |2--1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The historical data shows that pricing strategies need to find a balance between sales v..."
+    firm 2 thinks: "The current market data shows that lower prices generally lead to increased sales volume..."
+
+  [P2_rep1_a1]  period 121/300   spent $3.5350
+    firm 1: price   1.20 | qty  44.21 | profit   8.84 |  5.5s $0.00096
+    firm 2: price   1.15 | qty  53.99 | profit   8.10 | 10.7s $0.00102
+    1.00 |--21---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.21
+    firm 1 thinks: "- The historical data indicates that pricing at $1.10 resulted in higher sales volume bu..."
+    firm 2 thinks: "- Analyzing the market data suggests that pricing aggressively below competitors can sig..."
+
+  [P2_rep1_a1]  period 122/300   spent $3.5850
+    firm 1: price   1.15 | qty  53.99 | profit   8.10 | 10.6s $0.00097
+    firm 2: price   1.20 | qty  44.21 | profit   8.84 |  6.3s $0.00095
+    1.00 |--12---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.21
+    firm 1 thinks: "The current data presents a dynamic market environment with varying competitor prices an..."
+    firm 2 thinks: "From the market data, it is evident that pricing strategies clinging to or slightly unde..."
+
+  [P2_rep1_a1]  period 123/300   spent $3.6288
+    firm 1: price   1.15 | qty  44.35 | profit   6.65 |  7.8s $0.00098
+    firm 2: price   1.10 | qty  54.17 | profit   5.42 |  5.5s $0.00098
+    1.00 |-21----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.42
+    firm 1 thinks: "Based on the market data, it seems that there is a notable fluctuation in the quantity s..."
+    firm 2 thinks: "Analyzing the previous rounds of pricing, it is evident that aligning prices more closel..."
+
+  [P2_rep1_a1]  period 124/300   spent $3.6608
+    firm 1: price   1.10 | qty  49.33 | profit   4.93 |  5.5s $0.00099
+    firm 2: price   1.10 | qty  49.33 | profit   4.93 |  6.1s $0.00094
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.52
+    firm 1 thinks: "Based on the market data, I notice that pricing at $1.10 yields significant sales volume..."
+    firm 2 thinks: "The market data indicates a notable correlation between price sensitivity and sales volu..."
+
+  [P2_rep1_a1]  period 125/300   spent $3.7123
+    firm 1: price   1.10 | qty  44.47 | profit   4.45 | 10.2s $0.00100
+    firm 2: price   1.05 | qty  54.32 | profit   2.72 |  7.1s $0.00095
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "Based on the market data, the price of $1.10 appears to be a consistent performer, resul..."
+    firm 2 thinks: "The data suggests that lower pricing strategies significantly impact sales volume, and t..."
+
+  [P2_rep1_a1]  period 126/300   spent $3.7775
+    firm 1: price   1.15 | qty  49.18 | profit   7.38 | 14.6s $0.00099
+    firm 2: price   1.15 | qty  49.18 | profit   7.38 |  6.8s $0.00096
+    1.00 |--X----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.30
+    firm 1 thinks: "The analysis of previous pricing indicates that pricing at $1.10 consistently attracts a..."
+    firm 2 thinks: "The current market indicates a high price sensitivity among customers, especially with p..."
+
+  [P2_rep1_a1]  period 127/300   spent $3.8191
+    firm 1: price   1.20 | qty  58.44 | profit  11.69 |  8.0s $0.00102
+    firm 2: price   1.30 | qty  39.18 | profit  11.75 |  4.7s $0.00092
+    1.00 |---12--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.92
+    firm 1 thinks: "Based on the previous pricing rounds and the corresponding profits, it appears that the ..."
+    firm 2 thinks: "Based on the market data, there is a significant correlation between pricing and sales v..."
+
+  [P2_rep1_a1]  period 128/300   spent $3.8588
+    firm 1: price   1.15 | qty  53.99 | profit   8.10 |  5.2s $0.00099
+    firm 2: price   1.20 | qty  44.21 | profit   8.84 |  7.3s $0.00095
+    1.00 |--12---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.21
+    firm 1 thinks: "The data shows that lower prices, around $1.10 and $1.20, yield a higher quantity sold c..."
+    firm 2 thinks: "The current pricing strategies have shown varied results. Pricing around $1.30 has prove..."
+
+  [P2_rep1_a1]  period 129/300   spent $3.8944
+    firm 1: price   1.20 | qty  44.21 | profit   8.84 |  6.9s $0.00097
+    firm 2: price   1.15 | qty  53.99 | profit   8.10 |  6.9s $0.00098
+    1.00 |--21---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.21
+    firm 1 thinks: "Based on the sales data, it seems that pricing strategies around $1.10 to $1.20 generall..."
+    firm 2 thinks: "The data shows that aligning your prices closely with competitors tends to yield better ..."
+
+  [P2_rep1_a1]  period 130/300   spent $3.9182
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  4.4s $0.00094
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  4.4s $0.00094
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The analysis of previous pricing rounds indicates that pricing strategies must balance v..."
+    firm 2 thinks: "The historical pricing data reveals several important trends regarding pricing strategie..."
+
+  [P2_rep1_a1]  period 131/300   spent $3.9560
+    firm 1: price   1.05 | qty  49.45 | profit   2.47 |  6.9s $0.00096
+    firm 2: price   1.05 | qty  49.45 | profit   2.47 |  6.4s $0.00093
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.73
+    firm 1 thinks: "The current highest price point of $1.20 appears to yield good profits while maintaining..."
+    firm 2 thinks: "Based on the past price and profit data, your most profitable pricing strategies appear ..."
+
+  [P2_rep1_a1]  period 132/300   spent $4.0077
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  8.4s $0.00102
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  6.7s $0.00096
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "From the market data, it is evident that lower pricing tends to result in higher sales v..."
+    firm 2 thinks: "Based on the provided market data and previous pricing strategies, it’s evident that com..."
+
+  [P2_rep1_a1]  period 133/300   spent $4.0534
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  9.2s $0.00099
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  4.1s $0.00093
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The market data indicates that pricing strategies around $1.10 seem to result in higher ..."
+    firm 2 thinks: "The historical sales data indicates that maintaining a price around $1.10 to $1.30 gener..."
+
+  [P2_rep1_a1]  period 134/300   spent $4.1049
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 | 10.7s $0.00102
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  4.4s $0.00094
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The market data shows that lower prices like $1.10 and $1.20 tend to yield higher quanti..."
+    firm 2 thinks: "The historical pricing data suggest that maintaining prices in the $1.10 to $1.30 range ..."
+
+  [P2_rep1_a1]  period 135/300   spent $4.1641
+    firm 1: price   1.20 | qty  53.78 | profit  10.76 | 13.3s $0.00103
+    firm 2: price   1.25 | qty  44.03 | profit  11.01 |  5.6s $0.00096
+    1.00 |---12--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.00
+    firm 1 thinks: "Based on the provided market data and previous pricing strategies, it appears that a pri..."
+    firm 2 thinks: "The market data indicates that aggressive pricing strategies, particularly below $1.10, ..."
+
+  [P2_rep1_a1]  period 136/300   spent $4.1940
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  6.5s $0.00108
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  4.0s $0.00096
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "From the market data, it appears that the price point of $1.20 has generally yielded hig..."
+    firm 2 thinks: "The data indicates that lower price points consistently drive higher sales volumes, espe..."
+
+  [P2_rep1_a1]  period 137/300   spent $4.2316
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  8.1s $0.00103
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  4.0s $0.00095
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "From the analysis of past pricing and competitor data, it appears that the price point o..."
+    firm 2 thinks: "From the market data, it's clear that lower pricing correlates positively with increased..."
+
+  [P2_rep1_a1]  period 138/300   spent $4.2692
+    firm 1: price   1.05 | qty  67.95 | profit   3.40 |  7.6s $0.00100
+    firm 2: price   1.25 | qty  30.53 | profit   7.63 |  6.4s $0.00097
+    1.00 |1---2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.46
+    firm 1 thinks: "The data indicates that pricing strategies around $1.20 show stronger profits, especiall..."
+    firm 2 thinks: "The market data indicates that aggressive pricing strategies, especially those hovering ..."
+
+  [P2_rep1_a1]  period 139/300   spent $4.3086
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  6.6s $0.00103
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  8.3s $0.00101
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The market data suggests that price elasticity is a crucial factor in determining the mo..."
+    firm 2 thinks: "The pricing data shows a clear correlation between price reductions and increased sales ..."
+
+  [P2_rep1_a1]  period 140/300   spent $4.3481
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  9.1s $0.00103
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  7.1s $0.00097
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "From the market data and previous rounds, there's a clear pattern indicating that lower ..."
+    firm 2 thinks: "Based on the market data, it appears that lower price points (around $1.05 to $1.10) lea..."
+
+  [P2_rep1_a1]  period 141/300   spent $4.3935
+    firm 1: price   1.25 | qty  34.82 | profit   8.71 |  8.4s $0.00099
+    firm 2: price   1.10 | qty  63.45 | profit   6.34 |  6.6s $0.00094
+    1.00 |-2--1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "The recent pricing history shows that maintaining a price of $1.20 yields promising prof..."
+    firm 2 thinks: "Based on the market data, it appears that lower prices tend to drive higher sales volume..."
+
+  [P2_rep1_a1]  period 142/300   spent $4.4252
+    firm 1: price   1.25 | qty  30.53 | profit   7.63 |  4.2s $0.00096
+    firm 2: price   1.05 | qty  67.95 | profit   3.40 |  5.9s $0.00100
+    1.00 |2---1--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.46
+    firm 1 thinks: "The data reveals that lower price points generally lead to higher sales volumes, particu..."
+    firm 2 thinks: "1. The data indicates that lower prices typically lead to higher sales volumes. For inst..."
+
+  [P2_rep1_a1]  period 143/300   spent $4.4770
+    firm 1: price   1.20 | qty  30.62 | profit   6.12 |  9.4s $0.00101
+    firm 2: price   1.00 | qty  68.14 | profit   0.00 |  5.1s $0.00099
+    1.00 |2--1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.68
+    firm 1 thinks: "The data shows that the price of $1.20 has been quite effective, allowing for reasonable..."
+    firm 2 thinks: "Based on the market data, I can see that lowering the price tends to increase the quanti..."
+
+  [P2_rep1_a1]  period 144/300   spent $4.5167
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  8.1s $0.00103
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  5.3s $0.00097
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The current market data suggests that pricing strategies can significantly influence sal..."
+    firm 2 thinks: "Looking at the data from previous rounds, there is a noticeable relationship between pri..."
+
+  [P2_rep1_a1]  period 145/300   spent $4.5568
+    firm 1: price   1.00 | qty  63.81 | profit   0.00 |  5.3s $0.00100
+    firm 2: price   1.15 | qty  35.02 | profit   5.25 |  8.0s $0.00096
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.72
+    firm 1 thinks: "The current pricing strategy appears to have a few promising outcomes. The price of $1.2..."
+    firm 2 thinks: "The pricing data indicates a correlation between the price set and the quantity sold, wh..."
+
+  [P2_rep1_a1]  period 146/300   spent $4.5906
+    firm 1: price   1.20 | qty  39.49 | profit   7.90 |  6.7s $0.00103
+    firm 2: price   1.10 | qty  58.91 | profit   5.89 |  3.6s $0.00095
+    1.00 |-2-1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The data shows that lower prices generally lead to higher quantities sold, but the profi..."
+    firm 2 thinks: "Based on the market data, it is evident that lower pricing generally leads to higher sal..."
+
+  [P2_rep1_a1]  period 147/300   spent $4.6363
+    firm 1: price   1.20 | qty  34.93 | profit   6.99 |  7.1s $0.00103
+    firm 2: price   1.05 | qty  63.65 | profit   3.18 |  8.2s $0.00098
+    1.00 |2--1---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The pricing data indicates that there is a sensitive balance between price and quantity ..."
+    firm 2 thinks: "Based on the market data, there's a clear fluctuation in sales volume and profit dependi..."
+
+  [P2_rep1_a1]  period 148/300   spent $4.6718
+    firm 1: price   1.05 | qty  49.45 | profit   2.47 |  6.6s $0.00102
+    firm 2: price   1.05 | qty  49.45 | profit   2.47 |  6.3s $0.00100
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.73
+    firm 1 thinks: "The historical data shows that pricing has a significant impact on both sales volume and..."
+    firm 2 thinks: "The sales data shows that lower pricing typically increases sales volume significantly, ..."
+
+  [P2_rep1_a1]  period 149/300   spent $4.7017
+    firm 1: price   1.15 | qty  39.60 | profit   5.94 |  5.2s $0.00101
+    firm 2: price   1.05 | qty  59.08 | profit   2.95 |  4.8s $0.00098
+    1.00 |2-1----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "Based on the market data and insights, there seems to be a consistent trend where pricin..."
+    firm 2 thinks: "- The historical data indicates that aggressive pricing strategies around the $1.05 to $..."
+
+  [P2_rep1_a1]  period 150/300   spent $4.7297
+    firm 1: price   1.15 | qty  39.60 | profit   5.94 |  7.4s $0.00101
+    firm 2: price   1.05 | qty  59.08 | profit   2.95 |  6.2s $0.00095
+    1.00 |2-1----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "Based on the provided market data, the pricing strategy has fluctuated, showing various ..."
+    firm 2 thinks: "The historical sales and profit data suggests a strong correlation between lower pricing..."
+
+  [P2_rep1_a1]  period 151/300   spent $4.7736
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  8.4s $0.00100
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  8.5s $0.00098
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The data indicates that lower price points generally lead to higher sales volumes, which..."
+    firm 2 thinks: "After analyzing the provided market data, it is clear that aggressive pricing strategies..."
+
+  [P2_rep1_a1]  period 152/300   spent $4.8075
+    firm 1: price   1.20 | qty  58.44 | profit  11.69 |  4.4s $0.00099
+    firm 2: price   1.30 | qty  39.18 | profit  11.75 |  4.8s $0.00099
+    1.00 |---12--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -0.92
+    firm 1 thinks: "The market data reveals significant fluctuations in both pricing and quantity sold. Lowe..."
+    firm 2 thinks: "The data indicates a couple of promising price strategies with significant variations in..."
+
+  [P2_rep1_a1]  period 153/300   spent $4.8569
+    firm 1: price   1.10 | qty  67.72 | profit   6.77 |  8.4s $0.00099
+    firm 2: price   1.30 | qty  30.43 | profit   9.13 |  9.1s $0.00095
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "Based on the market data, it appears that lower prices lead to higher sales volumes, whi..."
+    firm 2 thinks: "The previous data shows that pricing around $1.25 and $1.30 seems to yield the highest p..."
+
+  [P2_rep1_a1]  period 154/300   spent $4.8868
+    firm 1: price   1.10 | qty  67.72 | profit   6.77 |  5.6s $0.00101
+    firm 2: price   1.30 | qty  30.43 | profit   9.13 |  4.7s $0.00095
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.25
+    firm 1 thinks: "Based on the sales data collected across various price points and observations from the ..."
+    firm 2 thinks: "Based on the data, your optimal pricing strategy seems to be centered around the $1.25 -..."
+
+  [P2_rep1_a1]  period 155/300   spent $4.9145
+    firm 1: price   1.15 | qty  53.99 | profit   8.10 |  4.6s $0.00095
+    firm 2: price   1.20 | qty  44.21 | profit   8.84 |  4.6s $0.00095
+    1.00 |--12---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.21
+    firm 1 thinks: "Based on the provided market data and insights, the $1.10 price point has consistently d..."
+    firm 2 thinks: "The recent pricing data indicates that maintaining a price around $1.30 or $1.25 allows ..."
+
+  [P2_rep1_a1]  period 156/300   spent $4.9462
+    firm 1: price   1.12 | qty  61.57 | profit   7.39 |  5.1s $0.00098
+    firm 2: price   1.25 | qty  36.61 | profit   9.15 |  6.3s $0.00095
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.22
+    firm 1 thinks: "The market data indicates that lower pricing (around $1.10 and $1.20) tends to drive hig..."
+    firm 2 thinks: "The recent pricing data shows that lower price points have led to increased sales volume..."
+
+  [P2_rep1_a1]  period 157/300   spent $4.9839
+    firm 1: price   1.12 | qty  52.18 | profit   6.26 |  7.1s $0.00099
+    firm 2: price   1.15 | qty  46.28 | profit   6.94 |  7.5s $0.00100
+    1.00 |-12----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.37
+    firm 1 thinks: "The analysis of previous pricing data reveals interesting patterns regarding customer re..."
+    firm 2 thinks: "- The market shows that consumers are highly price-sensitive, as evidenced by the sales ..."
+
+  [P2_rep1_a1]  period 158/300   spent $5.0295
+    firm 1: price   1.10 | qty  44.47 | profit   4.45 |  7.2s $0.00097
+    firm 2: price   1.05 | qty  54.32 | profit   2.72 |  9.4s $0.00098
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "- The data demonstrates a strong connection between lower prices and increased sales vol..."
+    firm 2 thinks: "From the data, it's clear that pricing has a significant impact on both sales volume and..."
+
+  [P2_rep1_a1]  period 159/300   spent $5.0595
+    firm 1: price   1.10 | qty  46.41 | profit   4.64 |  5.1s $0.00101
+    firm 2: price   1.07 | qty  52.32 | profit   3.66 |  6.2s $0.00095
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.58
+    firm 1 thinks: "The market data indicates that lower prices tend to yield higher sales volumes, but the ..."
+    firm 2 thinks: "The historical data shows a significant variance in sales and profit depending on price ..."
+
+  [P2_rep1_a1]  period 160/300   spent $5.1050
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  7.3s $0.00098
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  8.4s $0.00098
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The historical data shows a clear trend of increased sales volume when prices are set be..."
+    firm 2 thinks: "The market data shows a variety of price points and their impact on quantity sold and pr..."
+
+  [P2_rep1_a1]  period 161/300   spent $5.1389
+    firm 1: price   1.20 | qty  44.21 | profit   8.84 |  4.7s $0.00100
+    firm 2: price   1.15 | qty  53.99 | profit   8.10 |  6.3s $0.00096
+    1.00 |--21---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.21
+    firm 1 thinks: "The historical market data suggests that lower prices tend to significantly boost sales ..."
+    firm 2 thinks: "The price data shows that lower prices tend to increase the quantity sold, while mid-ran..."
+
+  [P2_rep1_a1]  period 162/300   spent $5.1824
+    firm 1: price   1.12 | qty  61.57 | profit   7.39 |  8.0s $0.00097
+    firm 2: price   1.25 | qty  36.61 | profit   9.15 |  5.9s $0.00093
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.22
+    firm 1 thinks: "The historical data indicates strong price sensitivity below the $1.25 threshold, with a..."
+    firm 2 thinks: "The market data indicates that pricing strategies around $1.15 and $1.20 have yielded re..."
+
+  [P2_rep1_a1]  period 163/300   spent $5.2160
+    firm 1: price   1.05 | qty  59.08 | profit   2.95 |  6.8s $0.00102
+    firm 2: price   1.15 | qty  39.60 | profit   5.94 |  5.4s $0.00093
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "- The previous profit data indicates that prices at or below $1.20 have led to increased..."
+    firm 2 thinks: "Based on the market data, the most effective prices appear to lie between $1.05 and $1.3..."
+
+  [P2_rep1_a1]  period 164/300   spent $5.2535
+    firm 1: price   1.03 | qty  69.67 | profit   2.09 |  6.4s $0.00096
+    firm 2: price   1.25 | qty  28.90 | profit   7.22 |  6.0s $0.00093
+    1.00 |1---2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "The market data indicates that lower price points generally correlate with increased sal..."
+    firm 2 thinks: "After analyzing the past performance data, it appears that the optimal pricing range for..."
+
+  [P2_rep1_a1]  period 165/300   spent $5.2891
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  5.9s $0.00095
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  5.8s $0.00092
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "Based on the data provided, a price point of $1.03 was recently tested, which resulted i..."
+    firm 2 thinks: "From the market data, it appears that pricing plays a crucial role in sales volumes and ..."
+
+  [P2_rep1_a1]  period 166/300   spent $5.3287
+    firm 1: price   1.03 | qty  56.29 | profit   1.69 |  6.8s $0.00095
+    firm 2: price   1.10 | qty  42.54 | profit   4.25 |  7.0s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.69
+    firm 1 thinks: "The historical data suggests that pricing below $1.20 significantly drives up sales volu..."
+    firm 2 thinks: "- The cost of production is $1.00, allowing for a reasonable markup while still consider..."
+
+  [P2_rep1_a1]  period 167/300   spent $5.3683
+    firm 1: price   1.05 | qty  54.32 | profit   2.72 |  7.2s $0.00096
+    firm 2: price   1.10 | qty  44.47 | profit   4.45 |  7.4s $0.00099
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "The data indicates that pricing below $1.20 generally leads to higher sales volumes, par..."
+    firm 2 thinks: "Based on the market data, selling at $1.05 has resulted in higher quantities sold (up to..."
+
+  [P2_rep1_a1]  period 168/300   spent $5.3999
+    firm 1: price   1.05 | qty  71.93 | profit   3.60 |  6.4s $0.00096
+    firm 2: price   1.30 | qty  26.46 | profit   7.94 |  3.6s $0.00095
+    1.00 |1---2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.44
+    firm 1 thinks: "The data shows that lower prices generally lead to increased sales volume, particularly ..."
+    firm 2 thinks: "The analysis of the market data shows that aggressive pricing strategies may yield signi..."
+
+  [P2_rep1_a1]  period 169/300   spent $5.4333
+    firm 1: price   1.12 | qty  65.95 | profit   7.91 |  6.2s $0.00094
+    firm 2: price   1.30 | qty  32.10 | profit   9.63 |  5.1s $0.00097
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.18
+    firm 1 thinks: "Based on the market data and previous pricing strategies, it’s clear that lower prices g..."
+    firm 2 thinks: "The historical data indicates that aggressive pricing strategies can lead to substantial..."
+
+  [P2_rep1_a1]  period 170/300   spent $5.4610
+    firm 1: price   1.08 | qty  65.28 | profit   5.22 |  4.7s $0.00096
+    firm 2: price   1.25 | qty  33.07 | profit   8.27 |  5.3s $0.00100
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.36
+    firm 1 thinks: "From the gathered market data, I can observe that lower prices tend to lead to higher sa..."
+    firm 2 thinks: "The market data shows that price sensitivity varies significantly among customers, with ..."
+
+  [P2_rep1_a1]  period 171/300   spent $5.4905
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  4.7s $0.00095
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  4.7s $0.00095
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The analysis of the past pricing data suggests a clear trend where lower prices lead to ..."
+    firm 2 thinks: "The price data indicates that lower pricing generally leads to increased sales volume, p..."
+
+  [P2_rep1_a1]  period 172/300   spent $5.5300
+    firm 1: price   1.05 | qty  54.32 | profit   2.72 |  8.0s $0.00097
+    firm 2: price   1.10 | qty  44.47 | profit   4.45 |  4.9s $0.00098
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "The analysis of past pricing suggests a trend where lower prices, especially around $1.0..."
+    firm 2 thinks: "Based on the provided market data, pricing below $1.20 has consistently resulted in high..."
+
+  [P2_rep1_a1]  period 173/300   spent $5.5635
+    firm 1: price   1.08 | qty  60.83 | profit   4.87 |  5.6s $0.00096
+    firm 2: price   1.20 | qty  37.64 | profit   7.53 |  6.2s $0.00098
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.40
+    firm 1 thinks: "From the provided market data, it appears that lower pricing strategies have historicall..."
+    firm 2 thinks: "Analyzing the market data, it is evident that prices closer to the low-end pricing of $1..."
+
+  [P2_rep1_a1]  period 174/300   spent $5.5971
+    firm 1: price   1.05 | qty  49.45 | profit   2.47 |  5.5s $0.00100
+    firm 2: price   1.05 | qty  49.45 | profit   2.47 |  5.7s $0.00095
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.73
+    firm 1 thinks: "The market data indicates that pricing strategies at or below $1.10 often result in high..."
+    firm 2 thinks: "Analyzing the sales data across multiple rounds indicates that lower prices lead to high..."
+
+  [P2_rep1_a1]  period 175/300   spent $5.6345
+    firm 1: price   1.03 | qty  65.48 | profit   1.96 |  6.9s $0.00094
+    firm 2: price   1.20 | qty  33.17 | profit   6.63 |  4.5s $0.00096
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The historical data indicates that prices at or below $1.10 tend to fetch better sales v..."
+    firm 2 thinks: "Analyzing the market data from the past rounds, it is evident that pricing has a signifi..."
+
+  [P2_rep1_a1]  period 176/300   spent $5.6720
+    firm 1: price   1.03 | qty  73.52 | profit   2.21 |  6.5s $0.00094
+    firm 2: price   1.30 | qty  24.97 | profit   7.49 |  5.6s $0.00098
+    1.00 |1---2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.52
+    firm 1 thinks: "The market data demonstrates that competitive pricing is crucial for maximizing quantity..."
+    firm 2 thinks: "Analyzing the market data, it appears that aggressive pricing can lead to higher sales v..."
+
+  [P2_rep1_a1]  period 177/300   spent $5.7092
+    firm 1: price   1.03 | qty  69.67 | profit   2.09 |  6.0s $0.00093
+    firm 2: price   1.25 | qty  28.90 | profit   7.22 |  5.9s $0.00096
+    1.00 |1---2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "The recent pricing history indicates that lower price points have consistently increased..."
+    firm 2 thinks: "Based on the provided market data, most profit seems to occur at prices around $1.20 to ..."
+
+  [P2_rep1_a1]  period 178/300   spent $5.7447
+    firm 1: price   1.03 | qty  65.48 | profit   1.96 |  6.9s $0.00097
+    firm 2: price   1.20 | qty  33.17 | profit   6.63 |  5.9s $0.00094
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The current data indicates that lowering the price to $1.03 has generally resulted in an..."
+    firm 2 thinks: "The market data indicates that price sensitivity is considerable, with sales increasing ..."
+
+  [P2_rep1_a1]  period 179/300   spent $5.7804
+    firm 1: price   1.03 | qty  56.29 | profit   1.69 |  5.1s $0.00099
+    firm 2: price   1.10 | qty  42.54 | profit   4.25 |  6.3s $0.00093
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.69
+    firm 1 thinks: "The collected market data indicates that aggressive pricing below $1.10 consistently imp..."
+    firm 2 thinks: "Based on the data, price sensitivity is crucial; lowering prices generally leads to incr..."
+
+  [P2_rep1_a1]  period 180/300   spent $5.8101
+    firm 1: price   1.03 | qty  65.48 | profit   1.96 |  5.7s $0.00099
+    firm 2: price   1.20 | qty  33.17 | profit   6.63 |  6.5s $0.00096
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "Based on the market data and previous rounds, several trends emerge regarding pricing an..."
+    firm 2 thinks: "Based on the data provided, I can observe that your most profitable pricing points tend ..."
+
+  [P2_rep1_a1]  period 181/300   spent $5.8418
+    firm 1: price   1.01 | qty  62.88 | profit   0.63 |  6.1s $0.00094
+    firm 2: price   1.15 | qty  35.92 | profit   5.39 |  6.1s $0.00093
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.68
+    firm 1 thinks: "The current pricing strategy has been primarily centered around prices above $1.00, with..."
+    firm 2 thinks: "The analysis of market data suggests that prices around the $1.20 to $1.30 range general..."
+
+  [P2_rep1_a1]  period 182/300   spent $5.8835
+    firm 1: price   1.03 | qty  51.45 | profit   1.54 |  4.3s $0.00096
+    firm 2: price   1.05 | qty  47.49 | profit   2.37 |  6.2s $0.00094
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.77
+    firm 1 thinks: "The previous rounds show that lower price points significantly influence sales volumes, ..."
+    firm 2 thinks: "The data suggests that pricing strategies around the $1.20 to $1.30 range are favorable,..."
+
+  [P2_rep1_a1]  period 183/300   spent $5.9213
+    firm 1: price   1.00 | qty  59.22 | profit   0.00 |  7.6s $0.00095
+    firm 2: price   1.10 | qty  39.70 | profit   3.97 |  4.3s $0.00094
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.77
+    firm 1 thinks: "The market data reveals that lower pricing typically leads to higher sales volume, parti..."
+    firm 2 thinks: "The recent rounds of market data reveal that aggressive pricing strategies at or below $..."
+
+  [P2_rep1_a1]  period 184/300   spent $5.9548
+    firm 1: price   1.00 | qty  54.44 | profit   0.00 |  7.6s $0.00096
+    firm 2: price   1.05 | qty  44.57 | profit   2.23 |  6.1s $0.00094
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.85
+    firm 1 thinks: "The market data demonstrates significant price sensitivity among consumers. The rounds s..."
+    firm 2 thinks: "The data indicates that lower prices generally lead to increased sales volume, but they ..."
+
+  [P2_rep1_a1]  period 185/300   spent $5.9986
+    firm 1: price   1.00 | qty  59.22 | profit   0.00 |  6.2s $0.00103
+    firm 2: price   1.10 | qty  39.70 | profit   3.97 |  9.8s $0.00101
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.77
+    firm 1 thinks: "- Based on the historical data, the price of $1.00 generates the highest sales volumes, ..."
+    firm 2 thinks: "The data reflect various price points tested, suggesting that competitive pricing strong..."
+
+  [P2_rep1_a1]  period 186/300   spent $6.0383
+    firm 1: price   1.03 | qty  61.00 | profit   1.83 |  7.6s $0.00098
+    firm 2: price   1.15 | qty  37.74 | profit   5.66 |  6.7s $0.00097
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.62
+    firm 1 thinks: "From the market data, it appears that lower pricing generally correlates with higher sal..."
+    firm 2 thinks: "The market data suggests that lower prices generally lead to higher sales volumes, thoug..."
+
+  [P2_rep1_a1]  period 187/300   spent $6.1156
+    firm 1: price   1.10 | qty  54.17 | profit   5.42 |  7.4s $0.00099
+    firm 2: price   1.15 | qty  44.35 | profit   6.65 | 17.2s $0.00103
+    1.00 |-12----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.42
+    firm 1 thinks: "The market data indicates a pattern of consumer sensitivity to price changes, particular..."
+    firm 2 thinks: "The market data indicates a trend where lower prices tend to lead to increased sales vol..."
+
+  [P2_rep1_a1]  period 188/300   spent $6.1576
+    firm 1: price   1.15 | qty  49.18 | profit   7.38 |  7.4s $0.00101
+    firm 2: price   1.15 | qty  49.18 | profit   7.38 |  8.8s $0.00102
+    1.00 |--X----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.30
+    firm 1 thinks: "- The testing of lower prices has shown that while sales volume increases, profit margin..."
+    firm 2 thinks: "The recent market data shows a consistent theme where pricing lower than competitors typ..."
+
+  [P2_rep1_a1]  period 189/300   spent $6.2176
+    firm 1: price   1.15 | qty  44.35 | profit   6.65 |  5.2s $0.00103
+    firm 2: price   1.10 | qty  54.17 | profit   5.42 |  9.7s $0.00099
+    1.00 |-21----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.42
+    firm 1 thinks: "Based on the provided market data, it appears that the price elasticity of demand for th..."
+    firm 2 thinks: "Analyzing the current market data, I've observed various trends in pricing and consumer ..."
+
+  [P2_rep1_a1]  period 190/300   spent $6.2592
+    firm 1: price   1.15 | qty  49.18 | profit   7.38 |  5.5s $0.00096
+    firm 2: price   1.15 | qty  49.18 | profit   7.38 |  7.9s $0.00102
+    1.00 |--X----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.30
+    firm 1 thinks: "The market data shows that aggressive pricing strategies can lead to higher sales, albei..."
+    firm 2 thinks: "Based on the market data, it is apparent that pricing strategies around $1.10 to $1.20 t..."
+
+  [P2_rep1_a1]  period 191/300   spent $6.3049
+    firm 1: price   1.15 | qty  44.35 | profit   6.65 |  9.1s $0.00097
+    firm 2: price   1.10 | qty  54.17 | profit   5.42 |  9.9s $0.00101
+    1.00 |-21----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.42
+    firm 1 thinks: "The previous pricing data suggests that a price between $1.10 and $1.20 tends to balance..."
+    firm 2 thinks: "The current pricing strategy at $1.15 has shown to maintain reasonable profit margins an..."
+
+  [P2_rep1_a1]  period 192/300   spent $6.3427
+    firm 1: price   1.15 | qty  53.99 | profit   8.10 |  8.1s $0.00099
+    firm 2: price   1.20 | qty  44.21 | profit   8.84 |  7.0s $0.00101
+    1.00 |--12---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.21
+    firm 1 thinks: "Based on the market data, pricing strategies around $1.10 to $1.20 seem to be yielding t..."
+    firm 2 thinks: "After reviewing the market data, it appears that lower prices tend to increase the quant..."
+
+  [P2_rep1_a1]  period 193/300   spent $6.3746
+    firm 1: price   1.15 | qty  49.18 | profit   7.38 |  8.9s $0.00098
+    firm 2: price   1.15 | qty  49.18 | profit   7.38 |  7.9s $0.00102
+    1.00 |--X----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.30
+    firm 1 thinks: "The pricing data indicates that maintaining a price around $1.20 tends to yield relative..."
+    firm 2 thinks: "Analyzing the recent market data, it appears that aggressive pricing shows promise for i..."
+
+  [P2_rep1_a1]  period 194/300   spent $6.4221
+    firm 1: price   1.12 | qty  61.57 | profit   7.39 |  9.2s $0.00102
+    firm 2: price   1.25 | qty  36.61 | profit   9.15 |  6.7s $0.00099
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.22
+    firm 1 thinks: "Based on the data provided, the price elasticity of demand can be observed by comparing ..."
+    firm 2 thinks: "The data shows that pricing strategies significantly affect both quantity sold and profi..."
+
+  [P2_rep1_a1]  period 195/300   spent $6.4480
+    firm 1: price   1.12 | qty  47.33 | profit   5.68 |  6.4s $0.00099
+    firm 2: price   1.10 | qty  51.27 | profit   5.13 |  6.7s $0.00101
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.47
+    firm 1 thinks: "The data indicates that pricing within the range of $1.10 to $1.20 has generally been ef..."
+    firm 2 thinks: "Looking at the pricing data and profit trends, it appears that certain price points yiel..."
+
+  [P2_rep1_a1]  period 196/300   spent $6.4898
+    firm 1: price   1.05 | qty  44.57 | profit   2.23 |  6.8s $0.00096
+    firm 2: price   1.00 | qty  54.44 | profit   0.00 |  7.9s $0.00099
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.85
+    firm 1 thinks: "The analysis of previous pricing strategies suggests that lower prices tend to significa..."
+    firm 2 thinks: "The pricing data indicates that consumers are sensitive to price changes, with various r..."
+
+  [P2_rep1_a1]  period 197/300   spent $6.5334
+    firm 1: price   1.10 | qty  44.47 | profit   4.45 |  9.3s $0.00096
+    firm 2: price   1.05 | qty  54.32 | profit   2.72 |  7.2s $0.00097
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "The market data indicates that lower prices generally lead to higher sales volumes, but ..."
+    firm 2 thinks: "The market data reveals a complex interaction between pricing and sales volume. Prices a..."
+
+  [P2_rep1_a1]  period 198/300   spent $6.5708
+    firm 1: price   1.12 | qty  47.33 | profit   5.68 |  7.9s $0.00096
+    firm 2: price   1.10 | qty  51.27 | profit   5.13 |  6.7s $0.00096
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.47
+    firm 1 thinks: "The data reflects that lower prices tend to increase sales volume but can significantly ..."
+    firm 2 thinks: "The market data demonstrates a clear connection between pricing and sales volume, especi..."
+
+  [P2_rep1_a1]  period 199/300   spent $6.5906
+    firm 1: price   1.12 | qty  47.33 | profit   5.68 |  4.8s $0.00098
+    firm 2: price   1.10 | qty  51.27 | profit   5.13 |  5.0s $0.00097
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.47
+    firm 1 thinks: "The recent market data indicates varying levels of success at different price points. Fo..."
+    firm 2 thinks: "- The price elasticity of demand is evident, particularly around the $1.10 price point, ..."
+
+  [P2_rep1_a1]  period 200/300   spent $6.6303
+    firm 1: price   1.04 | qty  55.31 | profit   2.21 |  7.4s $0.00101
+    firm 2: price   1.10 | qty  43.51 | profit   4.35 |  8.5s $0.00101
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.66
+    firm 1 thinks: "The previous pricing data indicates a trend where lower prices often lead to increased s..."
+    firm 2 thinks: "Based on the past pricing data, it seems that pricing in the range of $1.10 offers a goo..."
+
+  [P2_rep1_a1]  period 201/300   spent $6.6622
+    firm 1: price   1.12 | qty  56.96 | profit   6.83 |  6.8s $0.00100
+    firm 2: price   1.20 | qty  41.36 | profit   8.27 |  6.3s $0.00098
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "The analysis of the market data shows that aggressive pricing strategies can lead to inc..."
+    firm 2 thinks: "The current price of $1.10 has proven to be a strong point for generating sales, consist..."
+
+  [P2_rep1_a1]  period 202/300   spent $6.6936
+    firm 1: price   1.12 | qty  56.96 | profit   6.83 |  9.0s $0.00099
+    firm 2: price   1.20 | qty  41.36 | profit   8.27 |  7.7s $0.00099
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "Analyzing the past pricing rounds, prices around $1.10 to $1.12 consistently yielded rea..."
+    firm 2 thinks: "The data indicates that the price elasticity for your product shifts significantly as yo..."
+
+  [P2_rep1_a1]  period 203/300   spent $6.7252
+    firm 1: price   1.03 | qty  69.67 | profit   2.09 |  5.0s $0.00096
+    firm 2: price   1.25 | qty  28.90 | profit   7.22 |  4.7s $0.00095
+    1.00 |1---2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "The data suggests that pricing has a significant impact on both sales volume and profit ..."
+    firm 2 thinks: "Based on the data, sales performance has varied significantly across different price poi..."
+
+  [P2_rep1_a1]  period 204/300   spent $6.7985
+    firm 1: price   1.01 | qty  67.26 | profit   0.67 | 17.0s $0.00099
+    firm 2: price   1.20 | qty  31.46 | profit   6.29 | 10.3s $0.00098
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.64
+    firm 1 thinks: "Analyzing the past data, it appears that lower prices like $1.03 lead to increased volum..."
+    firm 2 thinks: "The market data suggest that pricing significantly influences both sales volume and prof..."
+
+  [P2_rep1_a1]  period 205/300   spent $6.8203
+    firm 1: price   1.02 | qty  61.94 | profit   1.24 |  6.1s $0.00099
+    firm 2: price   1.15 | qty  36.83 | profit   5.52 |  5.7s $0.00096
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "Pricing strategies below the competitors' prices like $1.03, $1.01, and even moving towa..."
+    firm 2 thinks: "The sales data suggests that a pricing strategy between $1.05 and $1.20 is most effectiv..."
+
+  [P2_rep1_a1]  period 206/300   spent $6.8461
+    firm 1: price   1.02 | qty  61.94 | profit   1.24 |  5.0s $0.00097
+    firm 2: price   1.15 | qty  36.83 | profit   5.52 |  5.5s $0.00097
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "Analyzing the provided market data, it appears that prices of $1.10 and $1.12 have drive..."
+    firm 2 thinks: "Based on the provided market data, the price-sensitive nature of customers is evident, a..."
+
+  [P2_rep1_a1]  period 207/300   spent $6.8817
+    firm 1: price   1.02 | qty  61.94 | profit   1.24 |  7.0s $0.00101
+    firm 2: price   1.15 | qty  36.83 | profit   5.52 |  7.1s $0.00099
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "The pricing history shows that maintaining the price around $1.10-$1.15 generally result..."
+    firm 2 thinks: "The historical data indicates that pricing strategies need to be dynamic and responsive ..."
+
+  [P2_rep1_a1]  period 208/300   spent $6.9508
+    firm 1: price   1.12 | qty  47.33 | profit   5.68 | 14.1s $0.00100
+    firm 2: price   1.10 | qty  51.27 | profit   5.13 | 13.8s $0.00097
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.47
+    firm 1 thinks: "Based on the provided data, it appears that pricing strategies significantly impact sale..."
+    firm 2 thinks: "The pricing data shows that aggressive pricing strategies below competitors often lead t..."
+
+  [P2_rep1_a1]  period 209/300   spent $6.9845
+    firm 1: price   1.04 | qty  60.04 | profit   2.40 |  6.4s $0.00101
+    firm 2: price   1.15 | qty  38.67 | profit   5.80 |  3.8s $0.00096
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.59
+    firm 1 thinks: "The market data provides various insights into pricing strategies and their associated s..."
+    firm 2 thinks: "The previous data indicates a variation in sales and profits at different pricing points..."
+
+  [P2_rep1_a1]  period 210/300   spent $7.0182
+    firm 1: price   1.03 | qty  56.29 | profit   1.69 |  6.8s $0.00101
+    firm 2: price   1.10 | qty  42.54 | profit   4.25 |  4.8s $0.00095
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.69
+    firm 1 thinks: "The recent market data reveals that lower prices have generally led to increased sales v..."
+    firm 2 thinks: "The market data shows a trend where lower pricing generally correlates with higher sales..."
+
+  [P2_rep1_a1]  period 211/300   spent $7.0441
+    firm 1: price   1.02 | qty  57.27 | profit   1.15 |  4.9s $0.00099
+    firm 2: price   1.10 | qty  41.59 | profit   4.16 |  5.4s $0.00094
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.71
+    firm 1 thinks: "The historical data suggests that lower prices lead to increased sales volume, highlight..."
+    firm 2 thinks: "The data shows a clear trend where prices between $1.05 and $1.20 lead to substantial fl..."
+
+  [P2_rep1_a1]  period 212/300   spent $7.0877
+    firm 1: price   1.01 | qty  62.88 | profit   0.63 |  8.2s $0.00098
+    firm 2: price   1.15 | qty  35.92 | profit   5.39 |  6.9s $0.00098
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.68
+    firm 1 thinks: "The analysis of previous pricing rounds demonstrates a clear relationship between pricin..."
+    firm 2 thinks: "- Your pricing strategy has varied over recent rounds, with several different price poin..."
+
+  [P2_rep1_a1]  period 213/300   spent $7.1355
+    firm 1: price   1.01 | qty  62.88 | profit   0.63 |  6.3s $0.00098
+    firm 2: price   1.15 | qty  35.92 | profit   5.39 |  8.1s $0.00096
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.68
+    firm 1 thinks: "The market data indicates that pricing strategy plays a crucial role in determining both..."
+    firm 2 thinks: "The market data indicates that pricing elasticity plays a significant role in determinin..."
+
+  [P2_rep1_a1]  period 214/300   spent $7.1852
+    firm 1: price   1.02 | qty  61.94 | profit   1.24 | 10.4s $0.00103
+    firm 2: price   1.15 | qty  36.83 | profit   5.52 |  6.3s $0.00095
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "The market data reflects various pricing strategies and their impact on sales volume and..."
+    firm 2 thinks: "Analyzing the market data shows that pricing strategically around $1.10 to $1.20 has yie..."
+
+  [P2_rep1_a1]  period 215/300   spent $7.2208
+    firm 1: price   1.05 | qty  54.32 | profit   2.72 |  7.3s $0.00096
+    firm 2: price   1.10 | qty  44.47 | profit   4.45 |  4.5s $0.00094
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "The market data reveals that pricing strategies with lower prices generally yield higher..."
+    firm 2 thinks: "The market data shows a pattern where lower pricing leads to higher sales volumes, parti..."
+
+  [P2_rep1_a1]  period 216/300   spent $7.2446
+    firm 1: price   1.03 | qty  51.45 | profit   1.54 |  4.2s $0.00097
+    firm 2: price   1.05 | qty  47.49 | profit   2.37 |  4.0s $0.00094
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.77
+    firm 1 thinks: "The previous pricing data indicates that lower prices generally drive higher sales volum..."
+    firm 2 thinks: "The data indicates that lower pricing generally leads to increased sales volume. For exa..."
+
+  [P2_rep1_a1]  period 217/300   spent $7.2625
+    firm 1: price   1.04 | qty  50.45 | profit   2.02 |  4.8s $0.00094
+    firm 2: price   1.05 | qty  48.47 | profit   2.42 |  4.2s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.75
+    firm 1 thinks: "The historical data indicates that price adjustments have a significant impact on both q..."
+    firm 2 thinks: "The data indicates that lower price points lead to higher sales volume, but the profit p..."
+
+  [P2_rep1_a1]  period 218/300   spent $7.2963
+    firm 1: price   1.09 | qty  47.40 | profit   4.27 |  6.0s $0.00095
+    firm 2: price   1.07 | qty  51.35 | profit   3.59 |  5.2s $0.00098
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.60
+    firm 1 thinks: "Based on the provided market data, there are notable trends in sales volume and profits ..."
+    firm 2 thinks: "The market data shows varying customer responses at different price points, indicating t..."
+
+  [P2_rep1_a1]  period 219/300   spent $7.3222
+    firm 1: price   1.09 | qty  47.40 | profit   4.27 |  5.6s $0.00100
+    firm 2: price   1.07 | qty  51.35 | profit   3.59 |  5.1s $0.00096
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.60
+    firm 1 thinks: "The previous price tests have shown that pricing at $1.10 tends to yield reasonable sale..."
+    firm 2 thinks: "The market shows varying responses to pricing strategies, particularly with sensitivity ..."
+
+  [P2_rep1_a1]  period 220/300   spent $7.3738
+    firm 1: price   1.09 | qty  47.40 | profit   4.27 |  6.8s $0.00098
+    firm 2: price   1.07 | qty  51.35 | profit   3.59 |  9.5s $0.00098
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.60
+    firm 1 thinks: "The current market dynamics imply that pricing lower than competitors can boost sales vo..."
+    firm 2 thinks: "The market data reveals that pricing strategies directly influence the sales volume and ..."
+
+  [P2_rep1_a1]  period 221/300   spent $7.4016
+    firm 1: price   1.09 | qty  45.46 | profit   4.09 |  6.4s $0.00100
+    firm 2: price   1.05 | qty  53.35 | profit   2.67 |  5.5s $0.00096
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "The historical data shows that pricing strategies have resulted in variable sales volume..."
+    firm 2 thinks: "The historical data indicates that lower pricing strategies generally lead to increased ..."
+
+  [P2_rep1_a1]  period 222/300   spent $7.4315
+    firm 1: price   1.07 | qty  47.45 | profit   3.32 |  5.1s $0.00097
+    firm 2: price   1.05 | qty  51.40 | profit   2.57 |  4.9s $0.00096
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.69
+    firm 1 thinks: "Based on the market data and the previous rounds of pricing, it appears that a lower pri..."
+    firm 2 thinks: "Based on the historical data, aggressive pricing strategies around $1.05 seem to yield h..."
+
+  [P2_rep1_a1]  period 223/300   spent $7.4611
+    firm 1: price   1.03 | qty  51.45 | profit   1.54 |  7.0s $0.00100
+    firm 2: price   1.05 | qty  47.49 | profit   2.37 |  4.4s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.77
+    firm 1 thinks: "The current price range of $1.05 to $1.09 seems to yield reasonable sales volume and pro..."
+    firm 2 thinks: "Lower pricing has historically driven increased sales volume, particularly with prices a..."
+
+  [P2_rep1_a1]  period 224/300   spent $7.4950
+    firm 1: price   1.02 | qty  52.44 | profit   1.05 |  6.8s $0.00098
+    firm 2: price   1.05 | qty  46.51 | profit   2.33 |  4.6s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.80
+    firm 1 thinks: "The market data reveals that when priced at $1.05, the quantity sold tends to increase s..."
+    firm 2 thinks: "The market data indicates that pricing at $1.05 has historically led to increased sales ..."
+
+  [P2_rep1_a1]  period 225/300   spent $7.5445
+    firm 1: price   1.02 | qty  55.36 | profit   1.11 |  9.8s $0.00100
+    firm 2: price   1.08 | qty  43.55 | profit   3.48 |  7.2s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.75
+    firm 1 thinks: "The recent market data indicates a variety of price points and corresponding quantities ..."
+    firm 2 thinks: "The historical data shows that pricing strategies impact both sales and profit margins s..."
+
+  [P2_rep1_a1]  period 226/300   spent $7.6215
+    firm 1: price   1.02 | qty  66.37 | profit   1.33 | 15.6s $0.00103
+    firm 2: price   1.20 | qty  32.31 | profit   6.46 | 10.3s $0.00101
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.61
+    firm 1 thinks: "The data indicates that aggressive pricing strategies, particularly pricing just below c..."
+    firm 2 thinks: "The market data indicates a complex response from customers at various price points. Not..."
+
+  [P2_rep1_a1]  period 227/300   spent $7.6534
+    firm 1: price   1.02 | qty  66.37 | profit   1.33 |  5.7s $0.00102
+    firm 2: price   1.20 | qty  32.31 | profit   6.46 |  6.7s $0.00099
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.61
+    firm 1 thinks: "The gathered market data indicates that prices below or near those of competitors tend t..."
+    firm 2 thinks: "The analysis of historical sales data indicates that aggressive pricing strategies, espe..."
+
+  [P2_rep1_a1]  period 228/300   spent $7.6964
+    firm 1: price   1.02 | qty  66.37 | profit   1.33 |  7.1s $0.00100
+    firm 2: price   1.20 | qty  32.31 | profit   6.46 |  8.2s $0.00100
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.61
+    firm 1 thinks: "The analysis of previous pricing rounds reveals several important trends. Pricing at $1...."
+    firm 2 thinks: "The historical pricing data highlights that the price elasticity of demand is quite evid..."
+
+  [P2_rep1_a1]  period 229/300   spent $7.7361
+    firm 1: price   1.10 | qty  49.33 | profit   4.93 |  8.8s $0.00103
+    firm 2: price   1.10 | qty  49.33 | profit   4.93 |  6.6s $0.00097
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.52
+    firm 1 thinks: "The data indicates that pricing strategy is highly sensitive to competitor prices and co..."
+    firm 2 thinks: "The recent data shows that the user's pricing strategy at $1.20 has been generating a mo..."
+
+  [P2_rep1_a1]  period 230/300   spent $7.7741
+    firm 1: price   1.09 | qty  50.33 | profit   4.53 |  8.5s $0.00101
+    firm 2: price   1.10 | qty  48.35 | profit   4.84 |  8.3s $0.00098
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "Based on the data provided, it appears that pricing directly influences both sales volum..."
+    firm 2 thinks: "The current data indicates that pricing strategies have a significant impact on both sal..."
+
+  [P2_rep1_a1]  period 231/300   spent $7.8360
+    firm 1: price   1.03 | qty  65.48 | profit   1.96 |  7.0s $0.00099
+    firm 2: price   1.20 | qty  33.17 | profit   6.63 | 13.4s $0.00096
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The current pricing strategies provide valuable insights into customer behavior, particu..."
+    firm 2 thinks: "In reviewing the market data, it appears that a price range of $1.10 to $1.20 has consis..."
+
+  [P2_rep1_a1]  period 232/300   spent $7.8720
+    firm 1: price   1.08 | qty  51.33 | profit   4.11 |  7.0s $0.00103
+    firm 2: price   1.10 | qty  47.38 | profit   4.74 |  5.8s $0.00096
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "The previous market data reflects various price points tested, revealing that lower pric..."
+    firm 2 thinks: "The current pricing strategy shows that the price point of $1.20 has been performing con..."
+
+  [P2_rep1_a1]  period 233/300   spent $7.8899
+    firm 1: price   1.08 | qty  51.33 | profit   4.11 |  5.1s $0.00097
+    firm 2: price   1.10 | qty  47.38 | profit   4.74 |  4.8s $0.00097
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "The data shows that currently, a price of $1.12 continues to provide consistent results ..."
+    firm 2 thinks: "Based on the market data, it is clear that pricing strategies have fluctuated widely, wi..."
+
+  [P2_rep1_a1]  period 234/300   spent $7.9322
+    firm 1: price   1.10 | qty  49.33 | profit   4.93 |  7.4s $0.00096
+    firm 2: price   1.10 | qty  49.33 | profit   4.93 |  4.7s $0.00099
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.52
+    firm 1 thinks: "The market data indicates that aggressive pricing strategies at $1.03 have yielded incre..."
+    firm 2 thinks: "The sales data shows that pricing strategies have varied impacts on quantity sold and pr..."
+
+  [P2_rep1_a1]  period 235/300   spent $7.9642
+    firm 1: price   1.10 | qty  54.17 | profit   5.42 |  4.5s $0.00092
+    firm 2: price   1.15 | qty  44.35 | profit   6.65 |  6.9s $0.00101
+    1.00 |-12----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.42
+    firm 1 thinks: "After analyzing the market data, it is evident that lower pricing generally results in i..."
+    firm 2 thinks: "Based on the previous rounds of data, it's clear that pricing strategies have a signific..."
+
+  [P2_rep1_a1]  period 236/300   spent $8.0123
+    firm 1: price   1.12 | qty  52.18 | profit   6.26 |  7.1s $0.00094
+    firm 2: price   1.15 | qty  46.28 | profit   6.94 |  8.5s $0.00102
+    1.00 |-12----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.37
+    firm 1 thinks: "From the market data, it's evident that prices around $1.10 to $1.12 have been successfu..."
+    firm 2 thinks: "Based on the recent market data, pricing at $1.20 has consistently yielded profits aroun..."
+
+  [P2_rep1_a1]  period 237/300   spent $8.0564
+    firm 1: price   1.09 | qty  55.16 | profit   4.96 |  6.8s $0.00102
+    firm 2: price   1.15 | qty  43.39 | profit   6.51 |  7.5s $0.00101
+    1.00 |-12----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.45
+    firm 1 thinks: "Based on the market data provided, it appears that pricing strategies are showing varyin..."
+    firm 2 thinks: "The data indicates that different price points yield varying sales volumes and profit ma..."
+
+  [P2_rep1_a1]  period 238/300   spent $8.0883
+    firm 1: price   1.09 | qty  59.87 | profit   5.39 |  4.8s $0.00098
+    firm 2: price   1.20 | qty  38.56 | profit   7.71 |  5.2s $0.00100
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.37
+    firm 1 thinks: "The data indicates that pricing strategies in the range of $1.05 to $1.12 yield differen..."
+    firm 2 thinks: "The data shows that lower pricing typically results in higher sales volume but often sac..."
+
+  [P2_rep1_a1]  period 239/300   spent $8.1262
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  5.1s $0.00102
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  7.8s $0.00098
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "Analyzing the market data reveals that pricing around $1.10 seems to yield a balance bet..."
+    firm 2 thinks: "Based on the historical data, it is evident that different pricing strategies yield vary..."
+
+  [P2_rep1_a1]  period 240/300   spent $8.1581
+    firm 1: price   1.09 | qty  50.33 | profit   4.53 |  6.6s $0.00097
+    firm 2: price   1.10 | qty  48.35 | profit   4.84 |  7.3s $0.00098
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "The historical data suggests a strong price sensitivity among customers, particularly in..."
+    firm 2 thinks: "The current pricing strategy has demonstrated that a price point of $1.20 yields relativ..."
+
+  [P2_rep1_a1]  period 241/300   spent $8.1899
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  7.2s $0.00095
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  7.6s $0.00093
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The market data shows a clear sensitivity to pricing among customers, as evidenced by th..."
+    firm 2 thinks: "The historical data indicates that pricing around $1.05 tends to generate a higher volum..."
+
+  [P2_rep1_a1]  period 242/300   spent $8.2274
+    firm 1: price   1.03 | qty  65.48 | profit   1.96 |  5.7s $0.00095
+    firm 2: price   1.20 | qty  33.17 | profit   6.63 |  6.7s $0.00096
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "Based on the market data, pricing strategies around $1.10 have generally yielded better ..."
+    firm 2 thinks: "Analysis of the recent pricing data shows that a lower price generally leads to higher s..."
+
+  [P2_rep1_a1]  period 243/300   spent $8.2634
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  7.4s $0.00102
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  6.4s $0.00095
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The previous rounds of data show that my pricing strategy plays a crucial role in both s..."
+    firm 2 thinks: "The data indicates that pricing strategies should focus on a balance between competitive..."
+
+  [P2_rep1_a1]  period 244/300   spent $8.2955
+    firm 1: price   1.10 | qty  63.45 | profit   6.34 |  7.5s $0.00100
+    firm 2: price   1.25 | qty  34.82 | profit   8.71 |  7.8s $0.00100
+    1.00 |-1--2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.29
+    firm 1 thinks: "The recent pricing data suggests that a price of $1.10 has stabilized sales around 58.91..."
+    firm 2 thinks: "The current pricing strategy shows a viable path with competitive pricing and consistent..."
+
+  [P2_rep1_a1]  period 245/300   spent $8.3334
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  6.6s $0.00097
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  4.6s $0.00098
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The pricing history indicates that maintaining a price around $1.10 has provided a balan..."
+    firm 2 thinks: "The current market data shows that the price points around $1.20 and $1.25 have yielded ..."
+
+  [P2_rep1_a1]  period 246/300   spent $8.3691
+    firm 1: price   1.03 | qty  69.67 | profit   2.09 |  4.6s $0.00097
+    firm 2: price   1.25 | qty  28.90 | profit   7.22 |  7.5s $0.00100
+    1.00 |1---2--N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "The market data indicates that lower pricing tends to result in higher sales volumes, pa..."
+    firm 2 thinks: "Based on the previous rounds of data, it's clear that pricing strategies need to be clos..."
+
+  [P2_rep1_a1]  period 247/300   spent $8.3987
+    firm 1: price   1.03 | qty  65.48 | profit   1.96 |  4.7s $0.00102
+    firm 2: price   1.20 | qty  33.17 | profit   6.63 |  7.0s $0.00098
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The data shows that lower prices tend to increase the quantity sold, which suggests a st..."
+    firm 2 thinks: "The data shows that price points significantly impact profit and sales volume. The price..."
+
+  [P2_rep1_a1]  period 248/300   spent $8.4302
+    firm 1: price   1.03 | qty  61.00 | profit   1.83 |  4.9s $0.00099
+    firm 2: price   1.15 | qty  37.74 | profit   5.66 |  5.9s $0.00096
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.62
+    firm 1 thinks: "Lower pricing strategies such as $1.03 have exhibited favorable outcomes in terms of qua..."
+    firm 2 thinks: "The data indicates that pricing strategies impacted both volume and profit in intricate ..."
+
+  [P2_rep1_a1]  period 249/300   spent $8.4700
+    firm 1: price   1.05 | qty  63.65 | profit   3.18 |  5.1s $0.00101
+    firm 2: price   1.20 | qty  34.93 | profit   6.99 |  7.3s $0.00097
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.50
+    firm 1 thinks: "The pricing history indicates that lower prices, particularly around $1.03 and $1.05, te..."
+    firm 2 thinks: "After analyzing the sales data, it is evident that some pricing points yield higher prof..."
+
+  [P2_rep1_a1]  period 250/300   spent $8.5081
+    firm 1: price   1.05 | qty  59.08 | profit   2.95 |  8.4s $0.00101
+    firm 2: price   1.15 | qty  39.60 | profit   5.94 |  6.8s $0.00100
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.56
+    firm 1 thinks: "The pricing data shows that there is significant price sensitivity within the customer b..."
+    firm 2 thinks: "The analysis of the historical pricing and sales data indicates that there is a strong p..."
+
+  [P2_rep1_a1]  period 251/300   spent $8.5478
+    firm 1: price   1.04 | qty  60.04 | profit   2.40 |  5.4s $0.00099
+    firm 2: price   1.15 | qty  38.67 | profit   5.80 |  7.0s $0.00098
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.59
+    firm 1 thinks: "The current pricing strategy is centered around a price point of $1.05, which has shown ..."
+    firm 2 thinks: "The current pricing strategy has included options around the $1.10 to $1.25 range. The d..."
+
+  [P2_rep1_a1]  period 252/300   spent $8.5955
+    firm 1: price   1.04 | qty  50.45 | profit   2.02 |  5.0s $0.00098
+    firm 2: price   1.05 | qty  48.47 | profit   2.42 | 10.2s $0.00098
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.75
+    firm 1 thinks: "- Based on previous pricing data, the price of $1.05 has demonstrated consistent sales, ..."
+    firm 2 thinks: "The market data indicates that pricing strategies have a significant impact on both sale..."
+
+  [P2_rep1_a1]  period 253/300   spent $8.6152
+    firm 1: price   1.02 | qty  52.44 | profit   1.05 |  3.5s $0.00091
+    firm 2: price   1.05 | qty  46.51 | profit   2.33 |  3.6s $0.00092
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.80
+    firm 1 thinks: "The analysis of past rounds indicates that lower prices generally lead to increased sale..."
+    firm 2 thinks: "The analysis of previous rounds indicates that lower prices tend to increase sales volum..."
+
+  [P2_rep1_a1]  period 254/300   spent $8.6489
+    firm 1: price   1.02 | qty  52.44 | profit   1.05 |  5.4s $0.00093
+    firm 2: price   1.05 | qty  46.51 | profit   2.33 |  5.6s $0.00095
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.80
+    firm 1 thinks: "The provided market data indicates fluctuating sales volumes and profits based on slight..."
+    firm 2 thinks: "The market data indicates that consistently lowering prices tends to increase sales volu..."
+
+  [P2_rep1_a1]  period 255/300   spent $8.6804
+    firm 1: price   1.01 | qty  53.44 | profit   0.53 |  5.1s $0.00098
+    firm 2: price   1.05 | qty  45.54 | profit   2.28 |  6.5s $0.00097
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.82
+    firm 1 thinks: "The market data shows a clear trend where lower prices tend to lead to higher sales volu..."
+    firm 2 thinks: "Analyzing the recent rounds of sales, it's clear that price adjustments have a significa..."
+
+  [P2_rep1_a1]  period 256/300   spent $8.7182
+    firm 1: price   1.02 | qty  57.27 | profit   1.15 |  6.7s $0.00098
+    firm 2: price   1.10 | qty  41.59 | profit   4.16 |  6.9s $0.00098
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.71
+    firm 1 thinks: "The historical data indicates that pricing below $1.05 tends to lead to higher sales vol..."
+    firm 2 thinks: "Based on the market data, it appears that pricing below the competitor's prices leads to..."
+
+  [P2_rep1_a1]  period 257/300   spent $8.7536
+    firm 1: price   1.01 | qty  58.25 | profit   0.58 |  6.6s $0.00097
+    firm 2: price   1.10 | qty  40.64 | profit   4.06 |  6.3s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.74
+    firm 1 thinks: "The market data shows that the demand is highly responsive to changes in price, particul..."
+    firm 2 thinks: "The market data reveals a complex interaction between price and quantity sold, which var..."
+
+  [P2_rep1_a1]  period 258/300   spent $8.7892
+    firm 1: price   1.02 | qty  57.27 | profit   1.15 |  7.3s $0.00098
+    firm 2: price   1.10 | qty  41.59 | profit   4.16 |  6.9s $0.00098
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.71
+    firm 1 thinks: "The previous rounds indicate that pricing at or below $1.05 often leads to increased sal..."
+    firm 2 thinks: "The historical sales data reveals a few trends regarding your pricing strategy. The pric..."
+
+  [P2_rep1_a1]  period 259/300   spent $8.8289
+    firm 1: price   1.01 | qty  67.26 | profit   0.67 |  4.3s $0.00096
+    firm 2: price   1.20 | qty  31.46 | profit   6.29 |  6.8s $0.00101
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.64
+    firm 1 thinks: "The market data indicates that lower prices tend to lead to an increase in sales volume...."
+    firm 2 thinks: "Based on the data provided, it’s clear that there is a complex relationship between pric..."
+
+  [P2_rep1_a1]  period 260/300   spent $8.8728
+    firm 1: price   1.02 | qty  61.94 | profit   1.24 |  7.0s $0.00098
+    firm 2: price   1.15 | qty  36.83 | profit   5.52 |  7.7s $0.00099
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "Based on the market data and insights, it appears that pricing at or below $1.05 frequen..."
+    firm 2 thinks: "The pricing data shows that a price point around $1.15 often results in a good balance o..."
+
+  [P2_rep1_a1]  period 261/300   spent $8.9106
+    firm 1: price   1.02 | qty  61.94 | profit   1.24 |  7.4s $0.00100
+    firm 2: price   1.15 | qty  36.83 | profit   5.52 |  7.5s $0.00102
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "The data shows that when the price is lowered to around $1.05 or below, the sales volume..."
+    firm 2 thinks: "I see that the price of $1.15 has proven to be relatively stable, yielding a good balanc..."
+
+  [P2_rep1_a1]  period 262/300   spent $8.9547
+    firm 1: price   1.04 | qty  60.04 | profit   2.40 |  6.1s $0.00101
+    firm 2: price   1.15 | qty  38.67 | profit   5.80 |  7.6s $0.00100
+    1.00 |1-2----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.59
+    firm 1 thinks: "The pricing data suggests that prices between $1.05 and $1.12 have historically provided..."
+    firm 2 thinks: "Analyzing the sales data reveals that the price points of $1.15 and $1.20 have generated..."
+
+  [P2_rep1_a1]  period 263/300   spent $8.9947
+    firm 1: price   1.06 | qty  62.72 | profit   3.76 |  5.9s $0.00097
+    firm 2: price   1.20 | qty  35.82 | profit   7.16 |  6.6s $0.00102
+    1.00 |1--2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.47
+    firm 1 thinks: "The market data reveals consumer sensitivity around the $1.05 price point, suggesting th..."
+    firm 2 thinks: "- The historical data indicates that while lower prices do drive volume, they generally ..."
+
+  [P2_rep1_a1]  period 264/300   spent $9.0243
+    firm 1: price   1.10 | qty  58.91 | profit   5.89 |  6.2s $0.00095
+    firm 2: price   1.20 | qty  39.49 | profit   7.90 |  7.8s $0.00100
+    1.00 |-1-2---N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.34
+    firm 1 thinks: "The analysis of the past rounds indicates that pricing strategies around the $1.05 to $1..."
+    firm 2 thinks: "- Pricing data indicates that prices around $1.20 tend to yield strong profits while mai..."
+
+  [P2_rep1_a1]  period 265/300   spent $9.0640
+    firm 1: price   1.12 | qty  47.33 | profit   5.68 |  5.9s $0.00094
+    firm 2: price   1.10 | qty  51.27 | profit   5.13 |  7.5s $0.00098
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.47
+    firm 1 thinks: "The historical data suggests that pricing around $1.10 to $1.12 has generally yielded go..."
+    firm 2 thinks: "Based on the market data, pricing strategies at $1.20, $1.15, and $1.10 have shown varyi..."
+
+  [P2_rep1_a1]  period 266/300   spent $9.0937
+    firm 1: price   1.06 | qty  55.25 | profit   3.32 |  5.0s $0.00092
+    firm 2: price   1.12 | qty  43.46 | profit   5.22 |  6.2s $0.00095
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The data indicates that previous price points around $1.12 have been effective in genera..."
+    firm 2 thinks: "Based on the provided market data and previous performance, it's clear that pricing stra..."
+
+  [P2_rep1_a1]  period 267/300   spent $9.1356
+    firm 1: price   1.06 | qty  55.25 | profit   3.32 |  6.0s $0.00092
+    firm 2: price   1.12 | qty  43.46 | profit   5.22 |  8.6s $0.00099
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The recent market data show varying sales results based on the pricing strategies employ..."
+    firm 2 thinks: "The current data indicates that lower prices tend to drive higher sales volumes, especia..."
+
+  [P2_rep1_a1]  period 268/300   spent $9.1671
+    firm 1: price   1.06 | qty  55.25 | profit   3.32 |  7.5s $0.00095
+    firm 2: price   1.12 | qty  43.46 | profit   5.22 |  7.1s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "I have reviewed the previous rounds of pricing and their corresponding sales data. The p..."
+    firm 2 thinks: "The current pricing strategy exhibits a clear correlation between pricing, quantity sold..."
+
+  [P2_rep1_a1]  period 269/300   spent $9.2426
+    firm 1: price   1.06 | qty  55.25 | profit   3.32 | 17.1s $0.00098
+    firm 2: price   1.12 | qty  43.46 | profit   5.22 |  6.4s $0.00098
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "From the market data, it's evident that there is a considerable price elasticity, partic..."
+    firm 2 thinks: "Based on the market data and existing insights, it’s evident that the price points aroun..."
+
+  [P2_rep1_a1]  period 270/300   spent $9.2906
+    firm 1: price   1.06 | qty  51.38 | profit   3.08 |  8.4s $0.00103
+    firm 2: price   1.08 | qty  47.43 | profit   3.79 |  9.8s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "The data reveals varying customer responses to different price points, with a clear indi..."
+    firm 2 thinks: "The current pricing data suggests that aggressive pricing strategies in the lower range ..."
+
+  [P2_rep1_a1]  period 271/300   spent $9.3246
+    firm 1: price   1.07 | qty  50.38 | profit   3.53 |  6.7s $0.00100
+    firm 2: price   1.08 | qty  48.40 | profit   3.87 |  7.4s $0.00095
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.62
+    firm 1 thinks: "It appears that prices around $1.06 yield a good balance between sales volume and profit..."
+    firm 2 thinks: "The current prices being tested are around the $1.05 to $1.20 range. There is a clear in..."
+
+  [P2_rep1_a1]  period 272/300   spent $9.3587
+    firm 1: price   1.11 | qty  48.33 | profit   5.32 |  5.5s $0.00097
+    firm 2: price   1.10 | qty  50.30 | profit   5.03 |  5.7s $0.00095
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.49
+    firm 1 thinks: "Analyzing past pricing strategies and sales data shows varying demand and profitability ..."
+    firm 2 thinks: "The market data shows that prices lower than the competitor's typically lead to increase..."
+
+  [P2_rep1_a1]  period 273/300   spent $9.4069
+    firm 1: price   1.11 | qty  45.41 | profit   5.00 |  5.0s $0.00096
+    firm 2: price   1.07 | qty  53.29 | profit   3.73 | 17.0s $0.00094
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The data shows that pricing strategies around $1.10 to $1.12 yield the highest profits, ..."
+    firm 2 thinks: "Based on the market data, maintaining a price of around $1.10 allows for a relatively st..."
+
+  [P2_rep1_a1]  period 274/300   spent $9.4408
+    firm 1: price   1.02 | qty  52.44 | profit   1.05 |  6.7s $0.00096
+    firm 2: price   1.05 | qty  46.51 | profit   2.33 | 10.1s $0.00099
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.80
+    firm 1 thinks: "Based on the historical sales data, it appears that aggressive pricing strategies yield ..."
+    firm 2 thinks: "The recent data shows that pricing around $1.10 has been effective in terms of sales vol..."
+
+  [P2_rep1_a1]  period 275/300   spent $9.4932
+    firm 1: price   1.05 | qty  44.57 | profit   2.23 | 15.1s $0.00096
+    firm 2: price   1.00 | qty  54.44 | profit   0.00 |  4.6s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.85
+    firm 1 thinks: "The recent pricing data indicates that maintaining a price around $1.10 gives a decent p..."
+    firm 2 thinks: "The previous market data indicates that pricing strategies around $1.05 to $1.15 are yie..."
+
+  [P2_rep1_a1]  period 276/300   spent $9.5296
+    firm 1: price   1.05 | qty  44.57 | profit   2.23 | 10.7s $0.00098
+    firm 2: price   1.00 | qty  54.44 | profit   0.00 |  6.8s $0.00094
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.85
+    firm 1 thinks: "Based on the market data and previous sales performance, it’s clear that maintaining a c..."
+    firm 2 thinks: "The market data indicates that pricing strategies below $1.05 tend to yield higher sales..."
+
+  [P2_rep1_a1]  period 277/300   spent $9.5579
+    firm 1: price   1.06 | qty  48.45 | profit   2.91 |  6.1s $0.00096
+    firm 2: price   1.05 | qty  50.42 | profit   2.52 |  7.2s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.71
+    firm 1 thinks: "Based on the gathered market data, your current pricing strategy around the $1.05 to $1...."
+    firm 2 thinks: "- The market data shows that aggressive pricing strategies at lower price points ($1.00 ..."
+
+  [P2_rep1_a1]  period 278/300   spent $9.5885
+    firm 1: price   1.06 | qty  48.45 | profit   2.91 |  6.4s $0.00096
+    firm 2: price   1.05 | qty  50.42 | profit   2.52 |  8.8s $0.00097
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.71
+    firm 1 thinks: "The current market data shows that lower prices tend to increase the quantity sold, but ..."
+    firm 2 thinks: "The pricing data indicates a significant relationship between price, quantity sold, and ..."
+
+  [P2_rep1_a1]  period 279/300   spent $9.6104
+    firm 1: price   1.06 | qty  53.32 | profit   3.20 |  5.9s $0.00102
+    firm 2: price   1.10 | qty  45.44 | profit   4.54 |  5.2s $0.00096
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.61
+    firm 1 thinks: "- The price elasticity of demand shows that lower prices generally lead to higher sales ..."
+    firm 2 thinks: "The market data suggests that price sensitivity is significant in my range, particularly..."
+
+  [P2_rep1_a1]  period 280/300   spent $9.6403
+    firm 1: price   1.10 | qty  44.47 | profit   4.45 |  7.5s $0.00097
+    firm 2: price   1.05 | qty  54.32 | profit   2.72 |  7.2s $0.00100
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.63
+    firm 1 thinks: "Based on the previous sales rounds, it seems that pricing strategies between $1.06 and $..."
+    firm 2 thinks: "From the market data, it is clear that pricing strategies have a substantial impact on s..."
+
+  [P2_rep1_a1]  period 281/300   spent $9.6781
+    firm 1: price   1.12 | qty  47.33 | profit   5.68 |  9.0s $0.00103
+    firm 2: price   1.10 | qty  51.27 | profit   5.13 |  5.9s $0.00099
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.47
+    firm 1 thinks: "Based on the market data, I notice that pricing strategies between $1.10 and $1.12 have ..."
+    firm 2 thinks: "The market data shows a clear correlation between price and quantity sold, with aggressi..."
+
+  [P2_rep1_a1]  period 282/300   spent $9.7176
+    firm 1: price   1.11 | qty  48.33 | profit   5.32 |  7.1s $0.00096
+    firm 2: price   1.10 | qty  50.30 | profit   5.03 |  8.0s $0.00101
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.49
+    firm 1 thinks: "The recent data reveals that your pricing strategies around $1.10 to $1.12 have been rel..."
+    firm 2 thinks: "- The data suggests a strong price sensitivity shown by customers, with lower prices (es..."
+
+  [P2_rep1_a1]  period 283/300   spent $9.7492
+    firm 1: price   1.09 | qty  45.46 | profit   4.09 |  8.8s $0.00098
+    firm 2: price   1.05 | qty  53.35 | profit   2.67 |  6.8s $0.00096
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.65
+    firm 1 thinks: "After reviewing the provided market data, it's clear that the price range of $1.10 to $1..."
+    firm 2 thinks: "The data indicates a clear trend in customer behavior regarding pricing sensitivity. Whe..."
+
+  [P2_rep1_a1]  period 284/300   spent $9.7809
+    firm 1: price   1.09 | qty  50.33 | profit   4.53 |  7.4s $0.00096
+    firm 2: price   1.10 | qty  48.35 | profit   4.84 |  5.8s $0.00094
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "The data indicates that pricing strategies around $1.10 to $1.12 have historically yield..."
+    firm 2 thinks: "The data shows that at $1.05, the sales volume is relatively high, but profitability is ..."
+
+  [P2_rep1_a1]  period 285/300   spent $9.8365
+    firm 1: price   1.10 | qty  54.17 | profit   5.42 |  8.0s $0.00097
+    firm 2: price   1.15 | qty  44.35 | profit   6.65 | 17.3s $0.00096
+    1.00 |-12----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.42
+    firm 1 thinks: "The historical data indicates that pricing near $1.10 to $1.12 has historically yielded ..."
+    firm 2 thinks: "Analyzing the market data, it appears that pricing strategies around $1.15 have yielded ..."
+
+  [P2_rep1_a1]  period 286/300   spent $9.8957
+    firm 1: price   1.01 | qty  58.25 | profit   0.58 |  4.3s $0.00098
+    firm 2: price   1.10 | qty  40.64 | profit   4.06 | 18.6s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.74
+    firm 1 thinks: "Based on the market data, several pricing strategies have been explored, revealing varyi..."
+    firm 2 thinks: "Based on the market data, it appears that pricing strategically can have a significant i..."
+
+  [P2_rep1_a1]  period 287/300   spent $9.9253
+    firm 1: price   1.09 | qty  50.33 | profit   4.53 |  6.9s $0.00101
+    firm 2: price   1.10 | qty  48.35 | profit   4.84 |  6.1s $0.00095
+    1.00 |-X-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.54
+    firm 1 thinks: "From the market data, it appears that various pricing strategies yield different sales v..."
+    firm 2 thinks: "The previous pricing rounds indicate that $1.10 has been consistently generating reasona..."
+
+  [P2_rep1_a1]  period 288/300   spent $9.9550
+    firm 1: price   1.01 | qty  53.44 | profit   0.53 |  7.2s $0.00100
+    firm 2: price   1.05 | qty  45.54 | profit   2.28 |  6.2s $0.00095
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.82
+    firm 1 thinks: "The pricing data indicates that aggressive pricing strategies have historically led to i..."
+    firm 2 thinks: "The analysis of the past pricing experiments reveals that the price of $1.10 consistentl..."
+
+  [P2_rep1_a1]  period 289/300   spent $9.9709
+    firm 1: price   1.10 | qty  42.54 | profit   4.25 |  5.5s $0.00098
+    firm 2: price   1.03 | qty  56.29 | profit   1.69 |  5.4s $0.00096
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.69
+    firm 1 thinks: "Based on the market data, pricing strategies around $1.10 consistently yield solid profi..."
+    firm 2 thinks: "From the market data, consistent prices around $1.10 appear to yield moderate sales and ..."
+
+  [P2_rep1_a1]  period 290/300   spent $9.9947
+    firm 1: price   1.10 | qty  41.59 | profit   4.16 |  6.4s $0.00096
+    firm 2: price   1.02 | qty  57.27 | profit   1.15 |  5.4s $0.00095
+    1.00 |21-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.71
+    firm 1 thinks: "The current pricing data suggests that there is a strong sensitivity to price changes wi..."
+    firm 2 thinks: "The current pricing strategy is yielding a stable profit, with several rounds showing si..."
+
+  [P2_rep1_a1]  period 291/300   spent $10.0208
+    firm 1: price   1.02 | qty  55.36 | profit   1.11 |  8.2s $0.00098
+    firm 2: price   1.08 | qty  43.55 | profit   3.48 |  7.1s $0.00094
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.75
+    firm 1 thinks: "The market data reveals that pricing aggressively can significantly impact sales volume...."
+    firm 2 thinks: "The recent rounds of pricing reveal significant insights into customer price sensitivity..."
+
+  [P2_rep1_a1]  period 292/300   spent $10.0427
+    firm 1: price   1.02 | qty  54.39 | profit   1.09 |  6.1s $0.00096
+    firm 2: price   1.07 | qty  44.53 | profit   3.12 |  6.0s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.76
+    firm 1 thinks: "The historical market data suggests that aggressive pricing strategies often yield highe..."
+    firm 2 thinks: "The previous sales data reveals consistent patterns where lower prices generally lead to..."
+
+  [P2_rep1_a1]  period 293/300   spent $10.0688
+    firm 1: price   1.02 | qty  57.27 | profit   1.15 |  6.1s $0.00096
+    firm 2: price   1.10 | qty  41.59 | profit   4.16 |  9.7s $0.00101
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.71
+    firm 1 thinks: "The historical sales data shows that aggressive pricing generally increases sales volume..."
+    firm 2 thinks: "The previous pricing data indicates that prices below $1.10 typically lead to increased ..."
+
+  [P2_rep1_a1]  period 294/300   spent $10.0847
+    firm 1: price   1.01 | qty  60.13 | profit   0.60 |  5.7s $0.00099
+    firm 2: price   1.12 | qty  38.73 | profit   4.65 |  4.8s $0.00098
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.72
+    firm 1 thinks: "The current pricing data indicates that aggressive pricing strategies significantly incr..."
+    firm 2 thinks: "The data shows that lower prices tend to lead to higher sales volumes, but often at the ..."
+
+  [P2_rep1_a1]  period 295/300   spent $10.1026
+    firm 1: price   1.06 | qty  55.25 | profit   3.32 |  4.4s $0.00096
+    firm 2: price   1.12 | qty  43.46 | profit   5.22 |  6.1s $0.00097
+    1.00 |12-----N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.57
+    firm 1 thinks: "The data suggests that testing lower prices can potentially increase sales volume signif..."
+    firm 2 thinks: "The market data indicates several price points we need to consider for optimization. Pri..."
+
+  [P2_rep1_a1]  period 296/300   spent $10.1244
+    firm 1: price   1.06 | qty  45.52 | profit   2.73 |  6.8s $0.00097
+    firm 2: price   1.02 | qty  53.42 | profit   1.07 |  6.0s $0.00095
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.78
+    firm 1 thinks: "I've observed that lowering the price tends to increase sales volume, but it may also lo..."
+    firm 2 thinks: "The market data reveals that prices considerably impact both the quantities sold and pro..."
+
+  [P2_rep1_a1]  period 297/300   spent $10.1465
+    firm 1: price   1.05 | qty  47.49 | profit   2.37 |  6.8s $0.00096
+    firm 2: price   1.03 | qty  51.45 | profit   1.54 |  7.0s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.77
+    firm 1 thinks: "The market data shows that varying price points have resulted in significantly different..."
+    firm 2 thinks: "The historical data indicates that there is a strong correlation between pricing and sal..."
+
+  [P2_rep1_a1]  period 298/300   spent $10.1646
+    firm 1: price   1.05 | qty  47.49 | profit   2.37 |  6.7s $0.00095
+    firm 2: price   1.03 | qty  51.45 | profit   1.54 |  6.1s $0.00095
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.77
+    firm 1 thinks: "The market data shows a variety of price points and corresponding sales volumes, where a..."
+    firm 2 thinks: "The data indicates that maintaining prices slightly below competitors tends to maximize ..."
+
+  [P2_rep1_a1]  period 299/300   spent $10.1970
+    firm 1: price   1.05 | qty  46.51 | profit   2.33 |  6.4s $0.00095
+    firm 2: price   1.02 | qty  52.44 | profit   1.05 | 12.8s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.80
+    firm 1 thinks: "The data reveals a strong correlation between pricing and quantity sold, with lower pric..."
+    firm 2 thinks: "The market data indicates that aggressive pricing strategies, such as pricing at $1.03 a..."
+
+  [P2_rep1_a1]  period 300/300   spent $10.2290
+    firm 1: price   1.05 | qty  46.51 | profit   2.33 | 13.3s $0.00098
+    firm 2: price   1.02 | qty  52.44 | profit   1.05 |  8.4s $0.00096
+    1.00 |X------N-------M------------------------------| 3.76
+    collusion index (0=Nash, 1=monopoly): -1.80
+    firm 1 thinks: "The current pricing strategy seems to reflect a balancing act between competitive pricin..."
+    firm 2 thinks: "The market data indicates that lower prices generally lead to an increase in quantity so..."
+    --> P2_rep1_a1: last 50 periods, prices 1.05/1.09 (Nash 1.47, monopoly 1.92), profit sum 6.5 of 67.5 max, index -1.66, cost $0.5207
