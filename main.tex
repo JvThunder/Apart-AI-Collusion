@@ -1019,126 +1019,147 @@ is the other axis: two copies of one model may coordinate partly \textit{because
 \end{frame}
 
 % ------------------------------------------------------------------
-\section{Relation to Our Research Questions}
+\section{Picking Up the Wider Discussion}
 
 % ------------------------------------------------------------------
-\begin{frame}{Where this lands on our five questions}
-\vspace{0.1cm}
+\begin{frame}{This paper is a corner of the design space}
+Almost every other result in this literature is \orange{this environment with one constraint relaxed}. Knowing
+where the paper sits tells you what a new paper is actually varying.
+\vspace{0.15cm}
 \begin{center}
 \small
-\begin{tabular}{@{}p{0.04\textwidth}p{0.38\textwidth}p{0.42\textwidth}@{}}
+\begin{tabular}{@{}p{0.27\textwidth}p{0.29\textwidth}p{0.30\textwidth}@{}}
 \toprule
-& \textbf{What the paper contributes} & \textbf{What my run adds} \\
+\textbf{Axis} & \textbf{Setting here} & \textbf{Who moves it} \\
 \midrule
-\textbf{1.1} & one isolated prompt lever, objectively measured & same lever spans monopoly to price war; round-number focality as an LLM-only lever \\[0.25cm]
-\textbf{1.2} & heterogeneous \textit{pairs} (A.3), newer model (A.5) & no mid-run swap anywhere; the convention lives in context, not weights \\[0.25cm]
-\textbf{1.3} & price-war embedding classifier; Table 1 regression & Table 1 is not identified: a detector must beat a best-response null \\[0.25cm]
-\textbf{1.4} & nothing information-theoretic & labelled collusive \textit{and} competitive price series from one model \\[0.25cm]
-\textbf{1.5} & P3 instruction fails to move prices & an accidental over-correction; market design shrinks the prize $99\%$ \\
+Communication & none, prices only & Nakamura (private talk) \\[0.2cm]
+Agent diversity & two copies of one model & Keppo, Aharon \\[0.2cm]
+Where the policy lives & in context (text memory) & Eschenbaum ($Q$-learning, in weights) \\[0.2cm]
+Sampling temperature & fixed at $1$ & Xu \\[0.2cm]
+Restriction tested & the prompt only (P3) & Agrawal (channel), Liu (payoffs) \\
 \bottomrule
 \end{tabular}
 \end{center}
 \vspace{0.1cm}
-\muted{The next five slides take these one at a time.}
+\muted{So when a paper reports a different outcome, the first question is which row it moved.}
 \end{frame}
 
 % ------------------------------------------------------------------
 \begin{frame}{1.1 Which variables make collusion emerge?}
-\textbf{What the paper gives.} The prompt prefix is exactly the kind of lever the question asks for:
-\orange{a single sentence}, everything else held fixed, with an objective readout --- price against the
-Nash and monopoly benchmarks.
+\begin{block}{In the literature}
+\begin{itemize}
+    \item Diverse agent types competing against each other \textit{decrease} collusion (Keppo).
+    \item Letting pairs talk privately \textit{introduces} collusion (Nakamura).
+    \item Innocuous prompt cues \textit{increase} it --- this paper.
+\end{itemize}
+\end{block}
 \pause
 \vspace{0.1cm}
-\begin{block}{What my run adds}
+\begin{block}{What knowing this environment buys you}
 \begin{itemize}
-    \item The same lever on a different model spans \orange{$\Delta = +0.76$ to $\Delta = -1.60$}: monopoly
-    pricing to a price war. So \textit{model identity} is itself a variable, and a lever's magnitude does not
-    transfer between models.
-    \item \blue{A candidate LLM-specific variable}: round-number focality. $26.6\%$ of P1 prices are exactly
-    $2.00$ when the monopoly price is $1.925$. Humans anchor on round numbers too, so this is directly
-    comparable in a human-subject arm.
-    \item A negative result worth reporting: the stated price ceiling does \textit{not} drive prices
-    ($r = -0.02$ across ceilings from $3.15$ to $4.73$), so that anchor is not a lever.
+    \item A \orange{common currency}. Every result here is a position between $p^{\mathsf{Nash}}$ and
+    $p^{\mathsf{M}}$, so any new lever can be reported as $\Delta$ and compared across papers that otherwise
+    share nothing.
+    \item Nakamura is \textit{this} setting with the communication constraint lifted --- the paper is explicit
+    that agents cannot communicate except through prices, which makes it the natural control.
+    \item Keppo varies diversity; two copies of one model is the \blue{homogeneous extreme} of that axis, so
+    this paper is the upper bound his result moves away from.
 \end{itemize}
 \end{block}
 \end{frame}
 
 % ------------------------------------------------------------------
 \begin{frame}{1.2 Is collusion robust to replacing participants?}
-\textbf{What the paper gives.} A.3 pairs a P1 agent with a P2 agent; A.5 re-runs on GPT-5.2. Both start
-\textit{fresh markets}. \orange{No participant is ever swapped mid-run}, so the gap the question identifies is
-real and this paper does not close it.
+\begin{block}{In the literature}
+\begin{itemize}
+    \item Rematching breaks $Q$-learning collusion \textit{permanently}: policies overfit their training rival
+    (Eschenbaum).
+    \item A 32B and a 14B model still collude; an LLM paired with a $Q$-learner does not (Keppo).
+    \item Models from similar families coordinate better (Aharon).
+\end{itemize}
+\end{block}
 \pause
 \vspace{0.1cm}
-\begin{block}{A concrete prediction, and how to test it}
+\begin{block}{What knowing this environment buys you}
 \begin{itemize}
-    \item Eschenbaum's $Q$-learners lose collusion on rematching because the policy lives \textit{in the
-    weights} and overfits its training rival. Here the convention lives \blue{in the context}: a newcomer reads
-    $100$ rounds of price history plus its predecessor's \texttt{INSIGHTS.txt}.
-    \item \orange{Prediction}: LLM collusion should survive replacement where $Q$-learning collusion does not
-    --- the newcomer infers the convention it never experienced.
-    \item One line in the existing harness: swap firm 2's model at period $150$. Three arms --- swap keeping the
-    memory files, swap wiping them, and no swap --- separates ``the history teaches it'' from ``the notes do''.
+    \item You can see \textit{why} Eschenbaum may not transfer. $Q$-learning collusion lives \orange{in the
+    weights}, so a new rival invalidates it. Here it lives \blue{in the context} --- a newcomer reads $100$
+    rounds of price history and its predecessor's \texttt{INSIGHTS.txt}.
+    \item That reframes ``rematching breaks collusion'' as a claim about \textit{where the policy is stored},
+    not about collusion in general --- which is the question to put to the next such paper.
+    \item It also suggests why LLM-vs-$Q$-learner fails: they disagree about how many periods learning takes.
 \end{itemize}
 \end{block}
 \end{frame}
 
 % ------------------------------------------------------------------
 \begin{frame}{1.3 Can we improve collusion detection?}
-\textbf{What the paper gives.} Two detectors: the \orange{price-war semantic classifier} (plan sentences
-embedded and scored against \textsf{AvoidPriceWar} minus \textsf{StartPriceWar}, validated in App.~F), and
-Table 1's regression on the rival's lagged price.
+\begin{block}{In the literature}
+\begin{itemize}
+    \item Two deployments of one base model correlate slightly; different base models, zero (Xu).
+    \item Interpretability-based detectors read model internals (Rose).
+    \item Independent agents selecting compatible steganographic schemes and keys (Rippin).
+\end{itemize}
+\end{block}
 \pause
 \vspace{0.1cm}
-\begin{block}{Where I would push}
+\begin{block}{What knowing this environment buys you}
 \begin{itemize}
-    \item The regression detector is \orange{not identified}: best responses slope up at $+0.42$, so a purely
-    myopic agent trips it. Any improved detector has to beat a \textit{best-response null}, not a zero null.
-    \item Proposal: flag the \blue{residual above best response} rather than correlation. In the lab the
-    best-response function is known exactly; in the field it is estimable from cost and demand.
-    \item \blue{Schelling-salience link}: two agents landing independently on $2.00$ is a mutual-salience
-    signal. But P2 runs also converge on a focal $1.00$ --- which is \textit{competitive}. Salience alone is
-    not collusion, and that is a useful anti-example.
+    \item A reason to distrust correlation. Best responses here slope up at $+0.42$, so two perfectly
+    competitive agents \textit{already} move together. The right question for Xu's measure is
+    \orange{what the no-collusion null is}.
+    \item The paper's own price-war classifier is Rose's idea one level up: read the \textit{stated} reasoning
+    rather than the activations. Comparing the two on the same runs is a natural study.
+    \item \blue{Mutual Schelling salience has a price analogue}: agents landing independently on a round number.
+    Same phenomenon Rippin measures with keys and schemes.
 \end{itemize}
 \end{block}
 \end{frame}
 
 % ------------------------------------------------------------------
 \begin{frame}{1.4 Information-theoretic detection}
-\textbf{What the paper gives.} Nothing information-theoretic --- the analysis is a regression plus an embedding
-classifier. This is the question the paper touches least.
+\begin{block}{In the literature}
+\begin{itemize}
+    \item Pairwise net influence identifies colluding pairs among three or four agents in small
+    \textit{discrete} games; assumes exactly two colluders; never applied to LLMs (Bonjour).
+\end{itemize}
+\end{block}
 \pause
 \vspace{0.1cm}
-\begin{block}{What my run offers as raw material}
+\begin{block}{What knowing this environment buys you}
 \begin{itemize}
-    \item $6{,}000$ periods of paired price series with \orange{ground-truth labels} from one model and one
-    environment: P1 runs collusive, P2 runs competitive. Validating a detector needs exactly this --- both
-    classes, same generator.
-    \item \orange{The caveat that unifies 1.3 and 1.4}: strategic complementarity produces correlated prices
-    with \textit{no} collusion whatsoever. Transfer entropy or directed information must be benchmarked against
-    simulated myopic agents in the same environment, or it will fire on competition.
-    \item Bonjour's pairwise net influence assumes exactly two colluders, so it needs $n \ge 3$ --- which is the
-    same sweep Discussion 6 asks for.
+    \item You know immediately what has to change to port it: prices here are \orange{continuous} and $n = 2$,
+    so the method needs discretisation and at least three agents before it says anything.
+    \item And you know the trap in advance. Strategic complementarity couples prices with \textit{no} collusion
+    at all, so any influence measure must be benchmarked against \blue{simulated myopic agents} in the same
+    environment, or it will fire on ordinary competition.
+    \item That is the same identification problem as 1.3, which is a reason to expect the two questions to be
+    answered by the same construction.
 \end{itemize}
 \end{block}
 \end{frame}
 
 % ------------------------------------------------------------------
 \begin{frame}{1.5 Which single restriction is cheapest?}
-\textbf{What the paper gives.} P3 is a system-prompt restriction --- instructed impatience --- and it moves the
-price from $1.689$ to $1.685$. Consistent with Bracale Syrnikov: \orange{small and unreliable}.
+\begin{block}{In the literature}
+\begin{itemize}
+    \item Raising temperature weakens cross-agent dependence (Xu); throttling messaging lowers coordination
+    (Agrawal); adding a $Q$-learner collapses price collusion (Keppo).
+    \item System-prompt instructions give small unreliable shifts (Bracale Syrnikov), while strongly worded
+    ones overshoot below the competitive price (Dhanda); a forfeitable deposit removes it entirely (Liu).
+\end{itemize}
+\end{block}
 \pause
 \vspace{0.1cm}
-\begin{block}{Two results from my run}
+\begin{block}{What knowing this environment buys you}
 \begin{itemize}
-    \item P2's clause is an \textit{accidental} version of Dhanda's strongly worded competition instruction: it
-    drove prices to $1.087$, \orange{below} the competitive $1.473$. Over-correction is real --- and not free,
-    since joint profit falls to $12\%$ of monopoly, which firms would notice and undo.
-    \item \blue{Market design dominates prompting.} Making the outside option modestly more attractive shrinks
-    the \textit{prize} for colluding from $22.91$ to $0.24$ --- a $99\%$ cut --- with nothing instructed,
-    nothing audited, and nothing to comply with.
-    \item Honest caveat: that is a large change to the market rather than a free lunch. But it suggests the
-    best cost-benefit lever may not sit on the agent at all.
+    \item A way to sort them: restrictions act on the \orange{agent} (temperature, prompt), the
+    \orange{channel} (messaging), or the \orange{payoffs} (deposits, market design). This paper tested only the
+    agent kind --- P3 --- and that is precisely the kind that failed.
+    \item Two of these levers do not exist here: temperature is fixed at $1$ in Appendix B, and there is no
+    messaging channel to throttle. Their absence is the reason this environment is a clean control for them.
+    \item \blue{The pattern to notice}: the further a restriction sits from the agent's wording, the better it
+    seems to work.
 \end{itemize}
 \end{block}
 \end{frame}

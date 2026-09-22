@@ -5,4 +5,4 @@
 \beamer@sectionintoc {5}{Opening the Black Box}{85}{0}{5}
 \beamer@sectionintoc {6}{Limitations and Discussion}{109}{0}{6}
 \beamer@sectionintoc {7}{Discussion}{133}{0}{7}
-\beamer@sectionintoc {8}{Relation to Our Research Questions}{152}{0}{8}
+\beamer@sectionintoc {8}{Picking Up the Wider Discussion}{152}{0}{8}
