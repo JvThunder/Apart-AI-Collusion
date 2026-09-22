@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1790069535.52957 "main.xdv" "main.pdf" "main" 1790069549.1881 0
-  "main.xdv" 1790069534.92928 2673372 d6b685e8bf946e8671207f96f66d5fb6 "xelatex"
+["xdvipdfmx"] 1790070224.38816 "main.xdv" "main.pdf" "main" 1790070239.71871 0
+  "main.xdv" 1790070223.69544 2709212 7ceadb68aff3f57ea9b2ef649ae7f2bb "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1790069526.22646 "main.tex" "main.xdv" "main" 1790069549.17192 0
+["xelatex"] 1790070214.83191 "main.tex" "main.xdv" "main" 1790070239.68221 0
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1776706901.94023 37558610 27976df5ff2fb51b0e8aa7f1282b167f ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136743454 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -215,10 +215,10 @@
   "assets/fig_replication_4omini.png" 1790056803.88571 146992 60a0bc60f79b9b5aa19b6a1d1cff107e ""
   "assets/ntu_ccds_logo.png" 1786574982 65953 a79954aee829244cf6ae2f59db4ea143 ""
   "beamerthemeEPIC.sty" 1786574982 9433 d9775ce80f2ec4a80c98974eb9ca885d ""
-  "main.aux" 1790069534.91328 31264 7eb4dd97133f16946863543a867d5e31 "xelatex"
-  "main.nav" 1790069534.92928 6684 16101306c4aa28dbe29992aab2847999 "xelatex"
-  "main.out" 1790069534.92628 1393 8882c01d154ae3b5dbac26b9cdd48d82 "xelatex"
-  "main.tex" 1790069525.66732 56060 eba3a2ef69adc3be1193fd7afd78212f ""
+  "main.aux" 1790070230.41176 31859 2003f9598840f8549be6a1df800ef942 "xelatex"
+  "main.nav" 1790070230.42969 6877 6d1150c7438976b17f6fb99b3b6ad007 "xelatex"
+  "main.out" 1790070230.42193 1393 8882c01d154ae3b5dbac26b9cdd48d82 "xelatex"
+  "main.tex" 1790070204.16542 59486 3db2b20c5d5af86094f93a09e8e80dc1 ""
   (generated)
   "main.aux"
   "main.log"

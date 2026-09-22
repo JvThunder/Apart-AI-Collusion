@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2026.4.21)  22 SEP 2026 17:32
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.3.31) (preloaded format=xelatex 2026.4.21)  22 SEP 2026 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1797,6 +1797,8 @@ File: assets/ntu_ccds_logo.png Graphic file (type bmp)
 ]
 File: assets/epic_logo.png Graphic file (type bmp)
 <assets/epic_logo.png>
+File: assets/ntu_ccds_logo.png Graphic fiassets/epic_logo.png Graphic file (type bmp)
+<assets/epic_logo.png>
 File: assets/ntu_ccds_logo.png Graphic file (type bmp)
 <assets/ntu_ccds_logo.png>
  [87
@@ -2571,7 +2573,32 @@ File: assets/epic_logo.png Graphic file (type bmp)
 <assets/epic_logo.png>
 File: assets/ntu_ccds_logo.png Graphic file (type bmp)
 <assets/ntu_ccds_logo.png>
+File: assets/epic_logo.png Graphic file (type bmp)
+<assets/epic_logo.png>
+File: assets/ntu_ccds_logo.png Graphic file (type bmp)
+<assets/ntu_ccds_logo.png>
  [164
+
+]
+File: assets/epic_logo.png Graphic file (type bmp)
+<assets/epic_logo.png>
+File: assets/ntu_ccds_logo.png Graphic file (type bmp)
+<assets/ntu_ccds_logo.png>
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 1222.
+
+File: assets/epic_logo.png Graphic file (type bmp)
+<assets/epic_logo.png>
+File: assets/ntu_ccds_logo.png Graphic file (type bmp)
+<assets/ntu_ccds_logo.png>
+ [165
+
+]
+File: assets/epic_logo.png Graphic file (type bmp)
+<assets/epic_logo.png>
+File: assets/ntu_ccds_logo.png Graphic file (type bmp)
+<assets/ntu_ccds_logo.png>
+ [166
 
 ]
 \tf@nav=\write6
@@ -2588,16 +2615,20 @@ File: assets/ntu_ccds_logo.png Graphic file (type bmp)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8882C01D154AE3B5DBAC26B9CDD48D82;1393.
  ) 
 Here is how much of TeX's memory you used:
- 26759 strings out of 409555
- 528441 string characters out of 5772200
+ 26778 strings out of 409555
+ 528970 string characters out of 5772200
  1935148 words of memory out of 5000000
- 48397 multiletter control sequences out of 15000+600000
- 566071 words of font info for 91 fonts, out of 8000000 for 9000
+ 48413 multiletter control sequences out of 15000+600000
+ 566079 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,123p,419b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,452b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (164 pages, 2673372 bytes).
+Output written on main.pdf (166 pages).
