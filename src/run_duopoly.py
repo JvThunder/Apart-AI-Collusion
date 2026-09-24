@@ -39,6 +39,36 @@ from econ import Environment
 HERE = Path(__file__).parent
 DEFAULT_OUT = HERE.parent / "results"
 
+RETIRED = """\
+This harness is retired.  Run the experiment through Inspect instead:
+
+    inspect eval evals/duopoly.py --model openrouter/openai/gpt-4o-mini
+    inspect eval evals/duopoly.py -T mock=true          # free, offline
+    inspect view --log-dir logs
+
+Why it is gated rather than deleted:  it is the record of how the original
+runs were produced, and `--estimate` (which only prices a run against
+OpenRouter's catalogue and writes nothing) still works.  But executing it
+again would rebuild the old `transcripts/*.md`, `runs/*.log` and `console.log`
+tree alongside the `.eval` logs, leaving two parallel records of the same
+experiment that can drift apart.  One record, in one format, is the point of
+the port: the `.eval` log already holds every prompt, every reply, the token
+counts and the cost.
+
+Task parameters map across directly:
+    --runs N            -> -T runs=N
+    --periods N         -> -T periods=N
+    --alphas 1,3.2,10   -> -T alphas=1,3.2,10
+    --history-window N  -> -T history_window=N
+    --avg-window N      -> -T avg_window=N
+    --prefixes P1,P2    -> -T prefixes=P1,P2
+    --mock              -> -T mock=true
+    --jobs N            -> --max-connections N   (Inspect schedules samples)
+    --budget-usd X      -> -T budget_usd_per_run=X   (note: PER MARKET now)
+
+If you genuinely need the old file tree, pass --allow-retired-harness.
+"""
+
 
 # ------------------------------------------------------------------- utilities
 
@@ -427,7 +457,12 @@ def main():
     p.add_argument("--estimate", action="store_true", help="price the run and exit")
     p.add_argument("--out", default=str(DEFAULT_OUT))
     p.add_argument("--tag", default="", help="label appended to the output folder")
+    p.add_argument("--allow-retired-harness", action="store_true",
+                   help=argparse.SUPPRESS)
     cfg = p.parse_args()
+
+    if not (cfg.estimate or cfg.allow_retired_harness):
+        sys.exit(RETIRED)
 
     cfg.prefixes = [s.strip() for s in cfg.prefixes.split(",") if s.strip()]
     cfg.alphas = [float(s) for s in cfg.alphas.split(",") if s.strip()]

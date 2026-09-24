@@ -1,0 +1,33 @@
+# Pinned to the exact versions this repo was developed and verified against.
+#
+#     python -m pip install -r requirements.txt
+#
+# Why pin exactly: an eval's job is to make a number reproducible, and the
+# number here depends on the harness as much as on the model.  Inspect's log
+# schema and metric names in particular move between minor releases, so a
+# floating version would silently change what `report.py` reads back out of a
+# log written months earlier.
+
+# ---- the eval harness -------------------------------------------------------
+inspect_ai==0.3.263
+
+# ---- model access -----------------------------------------------------------
+# Inspect's `openrouter/...` provider is built on the OpenAI-compatible client,
+# so the openai package is required even though no OpenAI endpoint is used.
+openai==3.8.0
+
+# ---- the economics ----------------------------------------------------------
+# numpy: logit demand and profits.
+# scipy: the Nash / monopoly optimisers in econ.py, and the Welch t-test in
+#        report.py.
+numpy==2.2.6
+scipy==1.13.0
+
+# ---- figures ----------------------------------------------------------------
+matplotlib==3.10.1
+
+# ---- kept for the legacy harness in src/ ------------------------------------
+# src/run_duopoly.py talks to OpenRouter directly over requests.  The Inspect
+# port does not need it; it is here so the old pipeline still runs for
+# side-by-side comparison.
+requests==2.32.4

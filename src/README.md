@@ -1,3 +1,15 @@
+> **Retired.** This harness has been ported to Inspect and no longer runs.
+> Use `inspect eval evals/duopoly.py` instead — see [`evals/README.md`](../evals/README.md).
+> The `.eval` log now holds every prompt, reply, token count and dollar figure,
+> so nothing regenerates the `transcripts/*.md`, `runs/*.log` and `console.log`
+> tree this file describes. `python src/run_duopoly.py --estimate` still works
+> (it only prices a run and writes nothing); anything else prints the flag-by-flag
+> mapping onto `-T` parameters and exits.
+>
+> `econ.py`, `agent.py` and `plot_fig2.py` are **not** retired — the eval imports
+> them unchanged, so they remain the single source of truth for the economics,
+> the prompts and the figure.
+
 # Duopoly pilot — can we reproduce Figure 2?
 
 A cheap, end-to-end pilot of the main experiment in Fish, Gonczarowski & Shorrer,
